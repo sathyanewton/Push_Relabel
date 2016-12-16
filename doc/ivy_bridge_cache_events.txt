@@ -1,0 +1,141 @@
+
+
+LLC_MISSES: (counter: all)
+	Last level cache demand requests from this core that missed the LLC (min count: 6000)
+	Unit masks (default 0x41)
+
+
+LLC_REFS: (counter: all)
+	Last level cache demand requests from this core (min count: 6000)
+	Unit masks (default 0x4f)
+
+l2_rqsts: (counter: all)
+	L2 cache requests (min count: 200000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=demand_data_rd_hit) Demand Data Read requests that hit L2 cache
+	0x03: (name=all_demand_data_rd) Demand Data Read requests
+	0x04: (name=rfo_hit) RFO requests that hit L2 cache
+	0x08: (name=rfo_miss) RFO requests that miss L2 cache
+	0x0c: (name=all_rfo) RFO requests to L2 cache
+	0x10: (name=code_rd_hit) L2 cache hits when fetching instructions, code reads.
+	0x20: (name=code_rd_miss) L2 cache misses when fetching instructions
+	0x30: (name=all_code_rd) L2 code requests
+	0x40: (name=pf_hit) Requests from the L2 hardware prefetchers that hit L2 cache
+	0x80: (name=pf_miss) Requests from the L2 hardware prefetchers that miss L2 cache
+	0xc0: (name=all_pf) Requests from L2 hardware prefetchers
+l2_store_lock_rqsts: (counter: all)
+	L2 cache store lock requests (min count: 200000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss) RFOs that miss cache lines
+	0x08: (name=hit_m) RFOs that hit cache lines in M state
+	0x0f: (name=all) RFOs that access cache lines in any state
+l2_l1d_wb_rqsts: (counter: all)
+	writebacks from L1D to the L2 cache (min count: 200000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss) Count the number of modified Lines evicted from L1 and missed L2. 
+              (Non-rejected WBs from the DCU.)
+	0x04: (name=hit_e) Not rejected writebacks from L1D to L2 cache lines in E state
+	0x08: (name=hit_m) Not rejected writebacks from L1D to L2 cache lines in M state
+	0x0f: (name=all) Not rejected writebacks from L1D to L2 cache lines in any state.
+l1d_pend_miss: (counter: 2)
+	L1D miss oustandings (min count: 2000000)
+	Unit masks (default pending_cycles)
+	----------
+	0x01: (name=pending) L1D miss oustandings duration in cycles
+	0x01: (name=pending_cycles) Cycles with L1D load Misses outstanding.
+	0x01: (name=occurences) This event counts the number of L1D misses outstanding, using an 
+              edge detect to count transitions.
+dtlb_store_misses: (counter: all)
+	Store misses in all DTLB levels that cause page walks (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss_causes_a_walk) Store misses in all DTLB levels that cause page walks
+	0x02: (name=walk_completed) Store misses in all DTLB levels that cause completed page 
+              walks
+	0x04: (name=walk_duration) Cycles when PMH is busy with page walks
+	0x10: (name=stlb_hit) Store operations that miss the first TLB level but hit the second 
+              and do not cause page walks
+
+
+ lock_cycles: (counter: all)
+	Locked cycles (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=split_lock_uc_lock_duration) Cycles when L1 and L2 are locked due to UC or 
+              split lock
+	0x02: (name=cache_lock_duration) Cycles when L1D is locked
+
+	l2_trans: (counter: all)
+	L2 cache transactions (min count: 200000)
+	Unit masks (default 0x80)
+	----------
+	0x01: (name=demand_data_rd) Demand Data Read requests that access L2 cache
+	0x02: (name=rfo) RFO requests that access L2 cache
+	0x04: (name=code_rd) L2 cache accesses when fetching instructions
+	0x08: (name=all_pf) L2 or LLC HW prefetches that access L2 cache
+	0x10: (name=l1d_wb) L1D writebacks that access L2 cache
+	0x20: (name=l2_fill) L2 fill requests that access L2 cache
+	0x40: (name=l2_wb) L2 writebacks that access L2 cache
+	0x80: (name=all_requests) Transactions accessing L2 pipe
+l2_lines_in: (counter: all)
+	L2 cache lines in (min count: 100000)
+	Unit masks (default 0x7)
+	----------
+	0x01: (name=i) L2 cache lines in I state filling L2
+	0x02: (name=s) L2 cache lines in S state filling L2
+	0x04: (name=e) L2 cache lines in E state filling L2
+	0x07: (name=all) L2 cache lines filling L2
+l2_lines_out: (counter: all)
+	L2 cache lines out (min count: 100000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=demand_clean) Clean L2 cache lines evicted by demand
+	0x02: (name=demand_dirty) Dirty L2 cache lines evicted by demand
+	0x04: (name=pf_clean) Clean L2 cache lines evicted by L2 prefetch
+	0x08: (name=pf_dirty) Dirty L2 cache lines evicted by L2 prefetch
+	0x0a: (name=dirty_all) Dirty L2 cache lines filling the L2
+
+
+l1d_pend_miss: (counter: 2)
+	L1D miss oustandings (min count: 2000000)
+	Unit masks (default pending_cycles)
+	----------
+	0x01: (name=pending) L1D miss oustandings duration in cycles
+	0x01: (name=pending_cycles) Cycles with L1D load Misses outstanding.
+	0x01: (name=occurences) This event counts the number of L1D misses outstanding, using an 
+              edge detect to count transitions.
+
+l1d: (counter: all)
+	L1D data line replacements (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=replacement) L1D data line replacements
+move_elimination: (counter: all)
+	Integer move elimination (min count: 1000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=int_not_eliminated) Number of integer Move Elimination candidate uops that 
+              were not eliminated.
+	0x02: (name=simd_not_eliminated) Number of SIMD Move Elimination candidate uops that were 
+              not eliminated.
+	0x04: (name=int_eliminated) Number of integer Move Elimination candidate uops that were 
+              eliminated.
+	0x08: (name=simd_eliminated) Number of SIMD Move Elimination candidate uops that were 
+              eliminated.
+
+
+lock_cycles: (counter: all)
+	Locked cycles (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=split_lock_uc_lock_duration) Cycles when L1 and L2 are locked due to UC or 
+              split lock
+	0x02: (name=cache_lock_duration) Cycles when L1D is locked
+
+
+
+
+=======> Micro archs <===========

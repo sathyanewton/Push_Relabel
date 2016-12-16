@@ -1,0 +1,317 @@
+
+ Node count and Edge count are 100 1000
+
+
+
+
+
+
+
+
+
+ node count : 100inside initialize
+back to main
+adjacent nodes to source
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+entered thread
+queue empty : thread id 17
+0
+entered thread
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+entered thread
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+entered thread
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+queue empty : thread id 17
+0
+master count : 7669 thread id : 17
+master count : 3891 thread id : 7
+master count : 7071 thread id : 6
+master count : 6479 thread id : 4
+master count : 4879 thread id : 2
+master count : 6237 thread id : 13
+master count : 18033 thread id : 19
+master count : 11547 thread id : 20
+master count : 14875 thread id : 8
+master count : 6241 thread id : 10
+master count : 3547 thread id : 11
+master count : 10377 thread id : 15
+master count : 3445 thread id : 5
+master count : 15049 thread id : 18
+master count : 6927 thread id : 12
+master count : 8539 thread id : 14
+master count : 7045 thread id : 1
+master count : 7471 thread id : 9
+master count : 4631 thread id : 16
+master count : 11837 thread id : 3
+
+
+Threads terminated.. Back to main 
+Excess of source is -193
+ 
+Excess of sink is 193
+

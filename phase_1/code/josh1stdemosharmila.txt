@@ -1,0 +1,3741 @@
+Program starting
+About to call initialization
+Excess of s initially is 0
+
+Active values of 0 is 0
+Active values of 1 is 1
+Active values of 2 is 0
+Active values of 3 is 0
+Active values of 4 is 0
+Active values of 5 is 0
+Active values of 6 is 1
+ Initializaiton happening, value of capacity is 15
+Values in return excess are 2
+ Initializaiton happening, value of capacity is 4
+Values in return excess are 4
+size of returnexcess inside initialization is 2
+Excess of s value is -19
+Returned after initialization
+ return excesses are 2 4
+threads declared 
+
+ Entered mythread
+ Entered mythread
+ Excess of 1 is -19
+hi, inside flag==0 loop
+ active values of node 2 is 1
+hi, inside flag==0 loop
+ active values of node 4 is 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 2
+ value in privQ is 2
+Entered Discharge fn for node 2
+ Excess of node 2 is 15
+ privQ.front is 2
+Entered for loop when i = 0
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 3
+ Excess of 1 is 
+Entered for loop when i = -19
+hi, inside flag==0 loop
+ active values of node 22 is 1
+Distance of node 2 is 
+hi, inside flag==0 loop
+ active values of node 1
+ Size of privQ is 42 is 
+ value in privQ is 14
+Entered Discharge fn for node 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+ Excess of node 04 is 
+ Excess of 1 is 4-19
+ privQ.front is 4
+Entered for loop when i = 0
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 5
+Distance of node 4 is 1
+ Size of privQ is 2
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 2
+ value in privQ is 2
+ PrivQ.size inside the 'else' case of for loop is 2
+ value in privQ is 2
+Entered Discharge fn for node 2
+ Excess of node 2 is 15
+ privQ.front is 2
+Entered for loop when i = 
+Entered Discharge fn for node 02
+ Excess of node 
+ entering 'if' loop to check dist2 < dist_t2 is 
+ ------- Value of smallest ht vertex is 151
+ privQ.front is 2
+Entered for loop when i = 
+Entered for loop when i = 10
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 
+ entering 'if' loop to check dist2 < dist_t1
+Entered for loop when i = 
+ ------- Value of smallest ht vertex is 1
+ entering 'if' loop to check dist2 < dist_t3
+ ------- Value of smallest ht vertex is 3
+Entered for loop when i = 
+Entered for loop when i = 22
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 15
+ #########   excess is 
+Min amount is 1215
+Residual capacity in the edge 
+Min amount is 20 to 
+Residual capacity in the edge 32 to  is 30 is 0
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [
+Excess updated inside Push3] is 
+---******((---Excess value of New overflowing vertex [123] is 12
+ Size of privQ is 
+ Size of privQ is 23
+ value in privQ is 
+ value in privQ is 44
+Entered Discharge fn for node 4
+Entered Discharge fn for node 
+ Excess of node 4
+ Excess of node 44 is  is 44
+ privQ.front is 4
+ privQ.front is 
+Entered for loop when i = 40
+ entering 'if' loop to check dist2 < dist_t
+Entered for loop when i = 
+ ------- Value of smallest ht vertex is 10
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 
+ ------- Value of smallest ht vertex is 15
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ ------- Value of smallest ht vertex is 
+ #########   excess is 54
+Min amount is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t4
+ #########   excess is 
+Residual capacity in the edge 4 to 5 is 6
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [5] is 4
+ Size of privQ is 3
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 3
+ value in privQ is 2
+Entered Discharge fn for node 2
+ Excess of node 2 is 3
+ privQ.front is 2
+Entered for loop when i = 0
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = 2
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 5
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 3
+Min amount is 3
+Residual capacity in the edge 2 to 5 is 24
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [5] is 7
+ Size of privQ is 3
+ value in privQ is 5
+Entered Discharge fn for node 5
+ Excess of node 5 is 7
+Min amount is 
+ privQ.front is 45
+Entered for loop when i = 
+Residual capacity in the edge 04
+ entering 'if' loop to check dist2 < dist_t to 
+ ------- Value of smallest ht vertex is 5 is 42
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+Excess updated inside Push
+ ------- Value of smallest ht vertex is 
+---******((---Excess value of New overflowing vertex [65
+Entered for loop when i = 2] is 
+Distance of node 115 is 
+ Size of privQ is 14
+ ---- SETTING FLAG TO 1
+ Size of privQ is 
+ -----^^^----Excess value of e(t) is 20
+ Excess of 1 is -19
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 4
+ value in privQ is 43
+Size of privQ when value of privQ.front is 
+Entered Discharge fn for node 23: 
+ Excess of node 13
+Size of privQ when value of privQ.front is  is 2: 122
+ privQ.front is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is 
+Entered for loop when i = -190
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t2
+ ------- Value of smallest ht vertex is 
+
+Initial value of privQ when value of privQ.front is 22
+Entered for loop when i = 1
+Size of privQ when value of privQ.front is 
+ entering 'if' loop to check dist2 < dist_t4
+ ------- Value of smallest ht vertex is : 61
+Entered for loop when i = 
+Size of privQ when value of privQ.front is 24: 2
+Distance of node 
+
+Initial value of privQ when value of privQ.front is 34
+Size of privQ when value of privQ.front is  is 2: 11
+ Size of privQ is 4
+Size of privQ when value of privQ.front is 
+
+Initial value of privQ when value of privQ.front is 22: 
+Size of privQ when value of privQ.front is 25
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 03
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -195
+ PrivQ.size inside the 'else' case of for loop is : 2
+
+Initial value of privQ when value of privQ.front is 42
+ value in privQ is 
+Size of privQ when value of privQ.front is 54: 1
+Size of privQ when value of privQ.front is 4: 2
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 2: 1
+Size of privQ when value of privQ.front is 2: 2
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 2
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 4: 
+Entered Discharge fn for node 15
+Size of privQ when value of privQ.front is 
+ Excess of node 45:  is 2
+
+Initial value of privQ when value of privQ.front is 411
+Size of privQ when value of privQ.front is 2
+ privQ.front is : 15
+Size of privQ when value of privQ.front is 
+Entered for loop when i = 20: 
+ entering 'if' loop to check dist2 < dist_t2
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 0
+ Excess of 1 is 1-19
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 2
+ ------- Value of smallest ht vertex is 
+
+Initial value of privQ when value of privQ.front is 62
+Size of privQ when value of privQ.front is 4: 1
+Size of privQ when value of privQ.front is 4: 2
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 2: 1
+Size of privQ when value of privQ.front is 2: 2
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 2
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 4: 1
+Size of privQ when value of privQ.front is 4: 2
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 2: 1
+Size of privQ when value of privQ.front is 2: 2
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 2
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 4: 1
+Size of privQ when value of privQ.front is 4: 2
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 2: 1
+Size of privQ when value of privQ.front is 2: 2
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 0
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 2
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 4: 1
+Size of privQ when value of privQ.front is 4: 2
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 2: 1
+Size of privQ when value of privQ.front is 2: 2
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 2
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 11
+Min amount is 100
+Residual capacity in the edge 5
+ Excess of 1 is -19 to 
+ PrivQ.size inside the 'else' case of for loop is 62 is 
+
+Initial value of privQ when value of privQ.front is 02
+Size of privQ when value of privQ.front is 4: 1
+Excess updated inside Push
+Size of privQ when value of privQ.front is 
+---******((---Excess value of New overflowing vertex [46: ] is 210
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 2
+ Size of privQ is : 41
+
+Initial value of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 42: 
+Size of privQ when value of privQ.front is 23
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 10: 
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 2
+
+Initial value of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 23: 
+Size of privQ when value of privQ.front is 44: 1
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 4: 102
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -194
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 2: 14
+Size of privQ when value of privQ.front is 
+ value in privQ is 23: 
+Entered Discharge fn for node 23
+ ---- SETTING FLAG TO 1
+ Excess of node 
+ -----^^^----Excess value of e(t) is 310
+ Excess of 1 is -19 is 
+ PrivQ.size inside the 'else' case of for loop is 122
+ privQ.front is 
+
+Initial value of privQ when value of privQ.front is 32
+Size of privQ when value of privQ.front is 
+Entered for loop when i = 40: 
+ entering 'if' loop to check dist2 < dist_t1
+ ------- Value of smallest ht vertex is 
+Size of privQ when value of privQ.front is 24: 2
+
+Initial value of privQ when value of privQ.front is 4
+Entered for loop when i = 
+Size of privQ when value of privQ.front is 12
+ entering 'if' loop to check dist2 < dist_t: 
+ ------- Value of smallest ht vertex is 1
+Size of privQ when value of privQ.front is 62: 
+Entered for loop when i = 2
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 10
+ Excess of 1 is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t-19
+ PrivQ.size inside the 'else' case of for loop is 
+ #########   excess is 212
+
+Initial value of privQ when value of privQ.front is 
+Min amount is 27
+Residual capacity in the edge 3 to 6 is 0
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [6] is 17
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 5: 3
+Size of privQ when value of privQ.front is 5: 4
+ value in privQ is 5
+Entered Discharge fn for node 5
+ Excess of node 5 is 1
+ privQ.front is 5
+Entered for loop when i = 0
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 4
+Entered for loop when i = 2
+Distance of node 5 is 2
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 3: 3
+Size of privQ when value of privQ.front is 3: 4
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 4
+ value in privQ is 3
+Entered Discharge fn for node 3
+ Excess of node 3 is 5
+ privQ.front is 3
+Entered for loop when i = 0
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 2
+Entered for loop when i = 2
+Distance of node 3 is 2
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 5: 3
+Size of privQ when value of privQ.front is 5: 4
+ value in privQ is 5
+Entered Discharge fn for node 54
+ Excess of node : 51 is 1
+ privQ.front is 5
+Size of privQ when value of privQ.front is 
+Entered for loop when i = 40: 
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 14
+
+Initial value of privQ when value of privQ.front is 4
+Entered for loop when i = 
+Size of privQ when value of privQ.front is 20: 
+Going to execute push-----Entering loop to check if dist[u] > dist_t0
+ #########   excess is 
+Size of privQ when value of privQ.front is 41: 
+Min amount is 11
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Residual capacity in the edge 175 to 
+ Excess of 1 is 4-19 is 
+ PrivQ.size inside the 'else' case of for loop is 71
+
+Initial value of privQ when value of privQ.front is 
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [4] is -3
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 3: 34
+Size of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 3: 04: 0
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 4: 117
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17-19
+ Excess of 1 is 
+ PrivQ.size inside the 'else' case of for loop is -194
+ PrivQ.size inside the 'else' case of for loop is 1
+ value in privQ is 
+
+Initial value of privQ when value of privQ.front is 34
+Size of privQ when value of privQ.front is 
+Entered Discharge fn for node 0: 30
+Size of privQ when value of privQ.front is 
+ Excess of node 4: 31
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 5
+ privQ.front is 173
+ Excess of 1 is -19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 01
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 
+
+`
+ -----^^^----Excess value of e(t) is  to 172
+ Excess of 1 is  is -197
+ PrivQ.size inside the 'else' case of for loop is 
+Excess updated inside Push1
+---******((---Excess value of New overflowing vertex [2] is 5
+
+Initial value of privQ when value of privQ.front is 
+ Size of privQ is 44
+Size of privQ when value of privQ.front is 0
+ value in privQ is : 20
+Entered Discharge fn for node 
+Size of privQ when value of privQ.front is 24
+ Excess of node : 21 is 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 1
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 0: 0
+Size of privQ when value of privQ.front is 4: 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 1
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 0: 0
+Size of privQ when value of privQ.front is 4: 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 1
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 0: 
+ privQ.front is 0
+Size of privQ when value of privQ.front is 4: 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 1
+
+Initial value of privQ when value of privQ.front is 04
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 
+Size of privQ when value of privQ.front is 10: 
+Entered for loop when i = 01
+Size of privQ when value of privQ.front is 
+ entering 'if' loop to check dist2 < dist_t4
+ ------- Value of smallest ht vertex is : 31
+Entered for loop when i = 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 1
+Distance of node 
+
+Initial value of privQ when value of privQ.front is 24 is 
+Size of privQ when value of privQ.front is 30
+ Size of privQ is : 40
+
+Initial value of privQ when value of privQ.front is 5
+Size of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is : 41
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 14: 
+
+Initial value of privQ when value of privQ.front is 44
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 03: 0: 
+Size of privQ when value of privQ.front is 34: 1
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is : -193
+ PrivQ.size inside the 'else' case of for loop is 1
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 4
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 170
+ Excess of 1 is : -190
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 43: 
+
+Initial value of privQ when value of privQ.front is 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -19
+ PrivQ.size inside the 'else' case of for loop is 21
+
+Initial value of privQ when value of privQ.front is : 42
+Size of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 02: 3: 
+ value in privQ is 02
+Size of privQ when value of privQ.front is 4
+Entered Discharge fn for node : 1
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ Excess of node -192 is 5
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 12
+
+Initial value of privQ when value of privQ.front is 
+Entered for loop when i = 40
+Size of privQ when value of privQ.front is 
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = : 1
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 
+Size of privQ when value of privQ.front is 34: 1
+Entered for loop when i = 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t-19
+ PrivQ.size inside the 'else' case of for loop is 
+ #########   excess is 15
+
+Initial value of privQ when value of privQ.front is 4
+Min amount is 
+Size of privQ when value of privQ.front is 0: 0
+Size of privQ when value of privQ.front is 4: 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 1
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 0: 05
+Size of privQ when value of privQ.front is 4: 1
+ ---- SETTING FLAG TO 1
+Residual capacity in the edge 
+ -----^^^----Excess value of e(t) is 217 to 
+ Excess of 1 is 3-19 is 
+ PrivQ.size inside the 'else' case of for loop is 01
+
+Initial value of privQ when value of privQ.front is 4
+Excess updated inside Push
+Size of privQ when value of privQ.front is 0
+---******((---Excess value of New overflowing vertex [: 30] is 
+Size of privQ when value of privQ.front is 54: 1
+ Size of privQ is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 
+
+Initial value of privQ when value of privQ.front is 175
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -193
+ PrivQ.size inside the 'else' case of for loop is 1: 
+
+Initial value of privQ when value of privQ.front is 24
+Size of privQ when value of privQ.front is 
+Size of privQ when value of privQ.front is 30: : 30
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is : 171
+ Excess of 1 is 
+ ---- SETTING FLAG TO 1-19
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 31
+
+Initial value of privQ when value of privQ.front is 
+ value in privQ is 43
+Entered Discharge fn for node 
+Size of privQ when value of privQ.front is 30: 0
+ Excess of node 
+Size of privQ when value of privQ.front is 4: 31
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 517
+ privQ.front is 
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 10
+
+Initial value of privQ when value of privQ.front is 
+ entering 'if' loop to check dist2 < dist_t4
+ ------- Value of smallest ht vertex is 
+Size of privQ when value of privQ.front is 20: 
+Entered for loop when i = 2
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 4
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 5
+Min amount is 3
+Residual capacity in the edge 3 to 4 is 0
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [4] is 0
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 20
+Size of privQ when value of privQ.front is 5
+Size of privQ when value of privQ.front is : 03: 
+Size of privQ when value of privQ.front is 05: 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+
+Initial value of privQ when value of privQ.front is 517
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is : 03
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17: 
+ Excess of 1 is 4-19
+ ---- SETTING FLAG TO 1
+ PrivQ.size inside the 'else' case of for loop is 
+ -----^^^----Excess value of e(t) is 017
+ ---- SETTING FLAG TO 1
+ Excess of 1 is -19
+ -----^^^----Excess value of e(t) is 
+ PrivQ.size inside the 'else' case of for loop is 174
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+
+Initial value of privQ when value of privQ.front is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 17: 
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 03: 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ value in privQ is 
+ Excess of 1 is 3-19
+Entered Discharge fn for node 
+ PrivQ.size inside the 'else' case of for loop is 30
+ Excess of node 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is  is 172
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ privQ.front is -19
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Entered for loop when i = -190
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 
+ ------- Value of smallest ht vertex is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+Distance of node 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is  is 174
+ Excess of 1 is 
+ Size of privQ is -194
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is : -193
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 05
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -195
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17: 
+ Excess of 1 is -193
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 174
+ Excess of 1 is : -19
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ -----^^^----Excess value of e(t) is 1717
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 04
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is -19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 173
+ Excess of 1 is : -193
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is : 17
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+ value in privQ is 03
+Entered Discharge fn for node 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 
+ Excess of node 17
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is  is 02
+ privQ.front is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 170
+ Excess of 1 is -19
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 0
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t0
+ ---- SETTING FLAG TO 1
+ #########   excess is 
+ -----^^^----Excess value of e(t) is 217
+Min amount is 
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 0
+Residual capacity in the edge 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is  to 17
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is  is 010
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Excess updated inside Push-19
+---******((---Excess value of New overflowing vertex [
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is -19] is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Size of privQ is 17
+ Excess of 1 is 4-19
+ value in privQ is 
+ PrivQ.size inside the 'else' case of for loop is 20
+Entered Discharge fn for node 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+ Excess of node 172
+ Excess of 1 is  is -192
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 02
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 017
+ entering 'if' loop to check dist2 < dist_t
+ Excess of 1 is 
+ ------- Value of smallest ht vertex is -191
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 01
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 
+ ------- Value of smallest ht vertex is 173
+ Excess of 1 is 
+Entered for loop when i = -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ entering 'if' loop to check dist2 < dist_t
+ ---- SETTING FLAG TO 1
+ ------- Value of smallest ht vertex is 
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t-19
+ #########   excess is 
+ PrivQ.size inside the 'else' case of for loop is 20
+Min amount is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Residual capacity in the edge -192 to 
+ PrivQ.size inside the 'else' case of for loop is 50
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is  is -19
+ PrivQ.size inside the 'else' case of for loop is 00
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Excess updated inside Push
+ Excess of 1 is 
+---******((---Excess value of New overflowing vertex [-195
+ PrivQ.size inside the 'else' case of for loop is ] is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Size of privQ is 174
+ Excess of 1 is 
+ value in privQ is -195
+ PrivQ.size inside the 'else' case of for loop is 
+Entered Discharge fn for node 05
+ ---- SETTING FLAG TO 1
+ Excess of node 
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is  is 2-19
+ privQ.front is 5
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 00
+ entering 'if' loop to check dist2 < dist_t
+ ---- SETTING FLAG TO 1
+ ------- Value of smallest ht vertex is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 172
+ Excess of 1 is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t-19
+ #########   excess is 
+ PrivQ.size inside the 'else' case of for loop is 02
+ ---- SETTING FLAG TO 1
+Min amount is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+Residual capacity in the edge 
+ PrivQ.size inside the 'else' case of for loop is 50 to 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is  is 175
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+Excess updated inside Push
+ ---- SETTING FLAG TO 1
+---******((---Excess value of New overflowing vertex [
+ -----^^^----Excess value of e(t) is 417] is 
+ Excess of 1 is 2-19
+ Size of privQ is 4
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 017
+ ---- SETTING FLAG TO 1
+ Excess of 1 is 
+ -----^^^----Excess value of e(t) is -1917
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ value in privQ is -194
+ PrivQ.size inside the 'else' case of for loop is 
+Entered Discharge fn for node 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of node 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is  is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 217
+ privQ.front is 
+ Excess of 1 is 4-19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 00
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 
+ ------- Value of smallest ht vertex is 171
+ Excess of 1 is -19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 171
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ entering 'if' loop to check dist2 < dist_t
+ ---- SETTING FLAG TO 1
+ ------- Value of smallest ht vertex is 
+ -----^^^----Excess value of e(t) is 517
+Entered for loop when i = 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+Distance of node 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 4-19 is 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Size of privQ is 17
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+
+Initial value of privQ when value of privQ.front is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 02: 
+ ---- SETTING FLAG TO 13
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is : -194
+ PrivQ.size inside the 'else' case of for loop is 0
+
+Initial value of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 175
+ Excess of 1 is : -193
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 0
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is : 174
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is 5-19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is : 17
+ Excess of 1 is 3-19
+Size of privQ when value of privQ.front is 4
+ PrivQ.size inside the 'else' case of for loop is : 0
+ ---- SETTING FLAG TO 14
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ -----^^^----Excess value of e(t) is 1717
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 4
+ PrivQ.size inside the 'else' case of for loop is 
+ value in privQ is 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Entered Discharge fn for node 174
+ Excess of 1 is 
+ Excess of node -194
+ PrivQ.size inside the 'else' case of for loop is 0 is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ privQ.front is 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 017
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t-19
+ ------- Value of smallest ht vertex is 
+ PrivQ.size inside the 'else' case of for loop is 01
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Entered for loop when i = 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 10
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t0
+ ---- SETTING FLAG TO 1
+ ------- Value of smallest ht vertex is 
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t0
+ ---- SETTING FLAG TO 1
+ #########   excess is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Min amount is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Residual capacity in the edge -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19 to 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is -19 is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Excess updated inside Push0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+---******((---Excess value of New overflowing vertex [-195
+ PrivQ.size inside the 'else' case of for loop is 0] is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ Size of privQ is 
+ PrivQ.size inside the 'else' case of for loop is 40
+
+Initial value of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 17
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is : 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 2-19: 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 05
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is : 173
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -195: 4
+ PrivQ.size inside the 'else' case of for loop is 0
+ value in privQ is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 517
+Entered Discharge fn for node 5
+ Excess of 1 is 
+ Excess of node -195
+ PrivQ.size inside the 'else' case of for loop is  is 0
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+ privQ.front is 175
+ Excess of 1 is 
+Entered for loop when i = -190
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 
+ ------- Value of smallest ht vertex is 40
+Entered for loop when i = 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+Distance of node 5 is 4
+ Size of privQ is 4
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 4
+
+Initial value of privQ when value of privQ.front is 4
+Size of privQ when value of privQ.front is 3: 3
+Size of privQ when value of privQ.front is 3: 4
+
+Initial value of privQ when value of privQ.front is 3
+Size of privQ when value of privQ.front is 2: 3
+Size of privQ when value of privQ.front is 2: 4
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 5: 317
+Size of privQ when value of privQ.front is 5: 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ value in privQ is 
+ -----^^^----Excess value of e(t) is 517
+Entered Discharge fn for node 
+ Excess of 1 is 5-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Excess of node 175
+ Excess of 1 is  is -19
+ PrivQ.size inside the 'else' case of for loop is 20
+ privQ.front is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 517
+Entered for loop when i = 
+ Excess of 1 is 0-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ entering 'if' loop to check dist2 < dist_t
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ ------- Value of smallest ht vertex is 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ -----^^^----Excess value of e(t) is 17
+ #########   excess is 
+ Excess of 1 is -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Min amount is -192
+ PrivQ.size inside the 'else' case of for loop is 
+Residual capacity in the edge 05 to 4
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 175
+ Excess of 1 is 
+Excess updated inside Push-19
+---******((---Excess value of New overflowing vertex [4] is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ Size of privQ is -194
+ ---- SETTING FLAG TO 1
+ PrivQ.size inside the 'else' case of for loop is 
+ -----^^^----Excess value of e(t) is 170
+ Excess of 1 is 
+ ---- SETTING FLAG TO 1-19
+ -----^^^----Excess value of e(t) is 
+ PrivQ.size inside the 'else' case of for loop is 174
+ value in privQ is 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered Discharge fn for node 04
+ Excess of node 
+ ---- SETTING FLAG TO 14 is 
+ -----^^^----Excess value of e(t) is 217
+ privQ.front is 
+ Excess of 1 is 4-19
+Entered for loop when i = 0
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 11
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Entered for loop when i = -191
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Entered for loop when i = -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Distance of node 174
+ Excess of 1 is  is -195
+ PrivQ.size inside the 'else' case of for loop is 
+ Size of privQ is 04
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 3
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 172: 
+ Excess of 1 is 3-19
+Size of privQ when value of privQ.front is 2
+ PrivQ.size inside the 'else' case of for loop is : 04
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+Size of privQ when value of privQ.front is 5
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is : 17
+ Excess of 1 is -193
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 5: 174
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -195
+ PrivQ.size inside the 'else' case of for loop is 0
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 417: 
+ Excess of 1 is -193
+ PrivQ.size inside the 'else' case of for loop is 0
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 174
+ Excess of 1 is : -194
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ ---- SETTING FLAG TO 117
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17-19
+ PrivQ.size inside the 'else' case of for loop is 4
+ Excess of 1 is 
+ value in privQ is 4
+Entered Discharge fn for node -194
+ PrivQ.size inside the 'else' case of for loop is 
+ Excess of node 04 is 2
+ ---- SETTING FLAG TO 1
+ privQ.front is 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is 
+Entered for loop when i = -190
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 5
+Entered for loop when i = 2
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 2
+Min amount is 2
+Residual capacity in the edge 4 to 5 is 30
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [5] is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ Size of privQ is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 317
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is : 0
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 17
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is : 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+
+Initial value of privQ when value of privQ.front is 
+ Excess of 1 is 2-19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 50: 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 175
+ Excess of 1 is : -194
+ PrivQ.size inside the 'else' case of for loop is 0
+ value in privQ is 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 
+Entered Discharge fn for node 17
+ Excess of 1 is -195
+ PrivQ.size inside the 'else' case of for loop is 
+ Excess of node 05
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is 
+ privQ.front is -195
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 00
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ ------- Value of smallest ht vertex is -194
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 02
+ entering 'if' loop to check dist2 < dist_t
+ ---- SETTING FLAG TO 1
+ ------- Value of smallest ht vertex is 
+ -----^^^----Excess value of e(t) is 217
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 
+ Excess of 1 is 2
+Min amount is -192
+ PrivQ.size inside the 'else' case of for loop is 0
+Residual capacity in the edge 5 to 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is  is 173
+ Excess of 1 is -19
+Excess updated inside Push
+ PrivQ.size inside the 'else' case of for loop is 
+---******((---Excess value of New overflowing vertex [02
+ ---- SETTING FLAG TO 1] is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+ Size of privQ is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ ---- SETTING FLAG TO 117
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 04
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 4
+Size of privQ when value of privQ.front is 173: 3
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -193
+ PrivQ.size inside the 'else' case of for loop is : 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+
+Initial value of privQ when value of privQ.front is 173
+ Excess of 1 is -19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 2: 30
+Size of privQ when value of privQ.front is 2: 4
+ ---- SETTING FLAG TO 1
+ value in privQ is 2
+Entered Discharge fn for node 
+ -----^^^----Excess value of e(t) is 217
+ Excess of node 
+ Excess of 1 is 2-19 is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+Entered for loop when i = 
+ Excess of 1 is 0
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = 1
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 3
+Entered for loop when i = 2
+Distance of node 2 is 5
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 5
+Size of privQ when value of privQ.front is 4: 3-19
+Size of privQ when value of privQ.front is 4: 4
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 017
+ ---- SETTING FLAG TO 1
+ Excess of 1 is 
+ -----^^^----Excess value of e(t) is 17-19
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+
+Initial value of privQ when value of privQ.front is 174
+ Excess of 1 is -19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 173
+ Excess of 1 is -19: 
+ PrivQ.size inside the 'else' case of for loop is 30
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is : -19
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 173
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -192
+ PrivQ.size inside the 'else' case of for loop is : 03
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is : -194
+ value in privQ is 2
+ PrivQ.size inside the 'else' case of for loop is 
+Entered Discharge fn for node 20
+ Excess of node 2 is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ privQ.front is 
+ Excess of 1 is 2-19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 0
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 11
+Entered for loop when i = 1
+ -----^^^----Excess value of e(t) is 
+ entering 'if' loop to check dist2 < dist_t17
+ ------- Value of smallest ht vertex is 
+ Excess of 1 is 3-19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 
+ -----^^^----Excess value of e(t) is 217
+Min amount is 
+ Excess of 1 is 2-19
+Residual capacity in the edge 
+ PrivQ.size inside the 'else' case of for loop is 20 to 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is  is 170
+ Excess of 1 is 
+Excess updated inside Push-19
+---******((---Excess value of New overflowing vertex [
+ PrivQ.size inside the 'else' case of for loop is 30] is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+ Size of privQ is 174
+
+Initial value of privQ when value of privQ.front is 5
+ Excess of 1 is 
+Size of privQ when value of privQ.front is 4: -193
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 04
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 4
+ ---- SETTING FLAG TO 117
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17-19
+ Excess of 1 is 
+ PrivQ.size inside the 'else' case of for loop is -190
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 14
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 417
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 3-19: 
+ PrivQ.size inside the 'else' case of for loop is 30
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is : 174
+ value in privQ is 3
+Entered Discharge fn for node 
+ Excess of 1 is 3-19
+ Excess of node 
+ PrivQ.size inside the 'else' case of for loop is 30 is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+ privQ.front is 173
+ Excess of 1 is 
+Entered for loop when i = -190
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 2
+Distance of node 3 is 6
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 5: 3
+Size of privQ when value of privQ.front is 5: 4
+
+Initial value of privQ when value of privQ.front is 5
+Size of privQ when value of privQ.front is 4: 
+ ---- SETTING FLAG TO 13
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 417: 
+ Excess of 1 is 4-19
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ PrivQ.size inside the 'else' case of for loop is 17
+ Excess of 1 is 0-19
+ ---- SETTING FLAG TO 1
+ PrivQ.size inside the 'else' case of for loop is 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is -19
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19: 
+ PrivQ.size inside the 'else' case of for loop is 30
+Size of privQ when value of privQ.front is 3
+ ---- SETTING FLAG TO 1: 4
+ -----^^^----Excess value of e(t) is 
+ value in privQ is 173
+ Excess of 1 is 
+Entered Discharge fn for node -193
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ Excess of node 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is  is -192
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 03
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 017
+ entering 'if' loop to check dist2 < dist_t
+ Excess of 1 is 
+ ------- Value of smallest ht vertex is -192
+ PrivQ.size inside the 'else' case of for loop is 0
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ ---- SETTING FLAG TO 1
+ #########   excess is 2
+ -----^^^----Excess value of e(t) is 
+Min amount is 217
+ Excess of 1 is 
+Residual capacity in the edge -193 to 2 is 10
+ PrivQ.size inside the 'else' case of for loop is 
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [20] is 2
+ ---- SETTING FLAG TO 1
+ Size of privQ is 4
+ -----^^^----Excess value of e(t) is 
+ value in privQ is 17
+ Excess of 1 is 2-19
+Entered Discharge fn for node 
+ PrivQ.size inside the 'else' case of for loop is 20
+ Excess of node 2
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 217
+ privQ.front is 
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 00
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 
+ ------- Value of smallest ht vertex is 117
+Entered for loop when i = 
+ Excess of 1 is 1-19
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 
+ ------- Value of smallest ht vertex is 03
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 2
+ entering 'if' loop to check dist2 < dist_t17
+ ------- Value of smallest ht vertex is 5
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ Excess of 1 is 
+ #########   excess is -192
+Min amount is 2
+ PrivQ.size inside the 'else' case of for loop is 
+Residual capacity in the edge 02
+ ---- SETTING FLAG TO 1 to 
+ -----^^^----Excess value of e(t) is 517 is 
+ Excess of 1 is 0-19
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [5
+ PrivQ.size inside the 'else' case of for loop is ] is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Size of privQ is 
+ Excess of 1 is 4-19
+ value in privQ is 
+ PrivQ.size inside the 'else' case of for loop is 50
+Entered Discharge fn for node 5
+ ---- SETTING FLAG TO 1
+ Excess of node 5 is 
+ -----^^^----Excess value of e(t) is 217
+ privQ.front is 
+ Excess of 1 is 5-19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 170
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Entered for loop when i = -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Distance of node 
+ -----^^^----Excess value of e(t) is 517 is 
+ Excess of 1 is 6-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Size of privQ is 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 10
+ -----^^^----Excess value of e(t) is 
+ ---- SETTING FLAG TO 117
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17-19
+ Excess of 1 is 
+ PrivQ.size inside the 'else' case of for loop is -194
+ PrivQ.size inside the 'else' case of for loop is 0
+
+Initial value of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 417
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 0: 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 3-19: 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -193
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19: 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 2: 174
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -192
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 5: 03
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 5: 174
+ Excess of 1 is 
+ value in privQ is -195
+ PrivQ.size inside the 'else' case of for loop is 0
+Entered Discharge fn for node 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17
+ Excess of node 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 50
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 05
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 017
+ Excess of 1 is -19
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 
+ ------- Value of smallest ht vertex is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Entered for loop when i = -19
+ PrivQ.size inside the 'else' case of for loop is 20
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ ---- SETTING FLAG TO 1
+ #########   excess is 
+ -----^^^----Excess value of e(t) is 217
+Min amount is 
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Residual capacity in the edge 
+ -----^^^----Excess value of e(t) is 5 to 174
+ Excess of 1 is  is -19
+ PrivQ.size inside the 'else' case of for loop is 50
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [4] is 2
+ Size of privQ is 4
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ value in privQ is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 4-19
+Entered Discharge fn for node 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ Excess of node 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is -19 is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ privQ.front is 17
+ Excess of 1 is 4-19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 00
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ entering 'if' loop to check dist2 < dist_t
+ Excess of 1 is 
+ ------- Value of smallest ht vertex is -191
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 01
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 
+ ------- Value of smallest ht vertex is 175
+ Excess of 1 is -19
+Entered for loop when i = 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Distance of node 
+ Excess of 1 is 4-19 is 
+ PrivQ.size inside the 'else' case of for loop is 70
+ ---- SETTING FLAG TO 1
+ Size of privQ is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 4-19
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 17
+ Excess of 1 is 2-19: 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 2: 174
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+
+Initial value of privQ when value of privQ.front is 02
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17: 3
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -195: 
+ PrivQ.size inside the 'else' case of for loop is 4
+
+Initial value of privQ when value of privQ.front is 05
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 4: 173
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 4-19: 4
+ ---- SETTING FLAG TO 1
+ PrivQ.size inside the 'else' case of for loop is 
+ -----^^^----Excess value of e(t) is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 1717
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ value in privQ is 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is 
+Entered Discharge fn for node -194
+ PrivQ.size inside the 'else' case of for loop is 
+ Excess of node 04 is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ privQ.front is 
+ Excess of 1 is 4-19
+Entered for loop when i = 0
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 01
+Entered for loop when i = 
+ ---- SETTING FLAG TO 11
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t-19
+ ------- Value of smallest ht vertex is 5
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 02
+ ---- SETTING FLAG TO 1
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ -----^^^----Excess value of e(t) is 
+ #########   excess is 217
+Min amount is 2
+ Excess of 1 is 
+Residual capacity in the edge -194 to 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 175
+ Excess of 1 is  is -193
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Excess updated inside Push
+ -----^^^----Excess value of e(t) is 
+---******((---Excess value of New overflowing vertex [175
+ Excess of 1 is ] is -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ Size of privQ is 
+ -----^^^----Excess value of e(t) is 417
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -193
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 0
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is : 03
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Size of privQ when value of privQ.front is 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17: 
+ Excess of 1 is 4-19
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 175: 
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 517: 
+ Excess of 1 is 4-19
+ value in privQ is 
+ PrivQ.size inside the 'else' case of for loop is 50
+Entered Discharge fn for node 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ Excess of node -195
+ PrivQ.size inside the 'else' case of for loop is  is 02
+ ---- SETTING FLAG TO 1
+ privQ.front is 
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 0
+ ---- SETTING FLAG TO 10
+ -----^^^----Excess value of e(t) is 
+ entering 'if' loop to check dist2 < dist_t17
+ Excess of 1 is -19
+ ------- Value of smallest ht vertex is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 2
+ entering 'if' loop to check dist2 < dist_t17
+ ------- Value of smallest ht vertex is 
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ -----^^^----Excess value of e(t) is 17
+ #########   excess is 2
+ Excess of 1 is 
+Min amount is 2-19
+Residual capacity in the edge 
+ PrivQ.size inside the 'else' case of for loop is 50 to 
+ ---- SETTING FLAG TO 12 is 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+Excess updated inside Push
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+---******((---Excess value of New overflowing vertex [
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is ] is -192
+ PrivQ.size inside the 'else' case of for loop is 
+ Size of privQ is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ ---- SETTING FLAG TO 1
+ Excess of 1 is -19
+ -----^^^----Excess value of e(t) is 
+ PrivQ.size inside the 'else' case of for loop is 017
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17-19
+ PrivQ.size inside the 'else' case of for loop is 
+ Excess of 1 is 4-19
+
+Initial value of privQ when value of privQ.front is 4
+ PrivQ.size inside the 'else' case of for loop is 0
+Size of privQ when value of privQ.front is 3: 3
+Size of privQ when value of privQ.front is 3: 4
+
+Initial value of privQ when value of privQ.front is 3
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 12: 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17: 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+ value in privQ is 02
+Entered Discharge fn for node 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+ Excess of node 172 is 
+ Excess of 1 is 2-19
+ privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 20
+Entered for loop when i = 
+ ---- SETTING FLAG TO 10
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t-19
+ ------- Value of smallest ht vertex is 
+ PrivQ.size inside the 'else' case of for loop is 10
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Entered for loop when i = 
+ Excess of 1 is 1-19
+ entering 'if' loop to check dist2 < dist_t
+ PrivQ.size inside the 'else' case of for loop is 
+ ------- Value of smallest ht vertex is 0
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Entered for loop when i = -192
+ PrivQ.size inside the 'else' case of for loop is 0
+Distance of node 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17 is 
+ Excess of 1 is 7-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ Size of privQ is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+
+Initial value of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -19
+ PrivQ.size inside the 'else' case of for loop is 40: 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 17
+Size of privQ when value of privQ.front is 
+ Excess of 1 is -194
+ PrivQ.size inside the 'else' case of for loop is 0: 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+ ---- SETTING FLAG TO 117
+ Excess of 1 is -19
+ -----^^^----Excess value of e(t) is 
+ PrivQ.size inside the 'else' case of for loop is 170
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ Excess of 1 is 17-19
+ PrivQ.size inside the 'else' case of for loop is 
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+
+Initial value of privQ when value of privQ.front is 04
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is : 17
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 03
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 417
+
+Initial value of privQ when value of privQ.front is 
+ Excess of 1 is 3-19
+ PrivQ.size inside the 'else' case of for loop is 0
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is : 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 17
+ Excess of 1 is 2-19: 4
+ value in privQ is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Entered Discharge fn for node 17
+ Excess of 1 is 2-19
+ Excess of node 2
+ PrivQ.size inside the 'else' case of for loop is  is 02
+ ---- SETTING FLAG TO 1
+ privQ.front is 
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is 
+Entered for loop when i = -19
+ PrivQ.size inside the 'else' case of for loop is 00
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 17
+ ------- Value of smallest ht vertex is 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 10
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 171
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t
+ ------- Value of smallest ht vertex is 3
+Entered for loop when i = 2
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ #########   excess is 2
+Min amount is 2-19
+Residual capacity in the edge 2 to 
+ PrivQ.size inside the 'else' case of for loop is 30 is 
+ ---- SETTING FLAG TO 10
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Excess updated inside Push-19
+ PrivQ.size inside the 'else' case of for loop is 
+---******((---Excess value of New overflowing vertex [0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0] is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ Size of privQ is 
+ -----^^^----Excess value of e(t) is 417
+
+Initial value of privQ when value of privQ.front is 
+ Excess of 1 is 5-19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 40: 
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -19
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is : -194
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ -----^^^----Excess value of e(t) is 1717
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+
+Initial value of privQ when value of privQ.front is 174
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 03
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -19
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 417
+ value in privQ is 3
+ Excess of 1 is 
+Entered Discharge fn for node 3-19
+ Excess of node 3 is 
+ PrivQ.size inside the 'else' case of for loop is 20
+ privQ.front is 
+ ---- SETTING FLAG TO 13
+Entered for loop when i = 0
+ -----^^^----Excess value of e(t) is 
+ entering 'if' loop to check dist2 < dist_t17
+ ------- Value of smallest ht vertex is 
+ Excess of 1 is -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Distance of node 
+ Excess of 1 is 3-19 is 
+ PrivQ.size inside the 'else' case of for loop is 80
+ Size of privQ is 
+ ---- SETTING FLAG TO 14
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 50
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is : 173
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 5-19: 4
+ PrivQ.size inside the 'else' case of for loop is 
+
+Initial value of privQ when value of privQ.front is 05
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 4: 173
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Size of privQ when value of privQ.front is 04
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 174
+ Excess of 1 is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is -1917
+ PrivQ.size inside the 'else' case of for loop is 0
+ Excess of 1 is 
+ ---- SETTING FLAG TO 1-19
+ -----^^^----Excess value of e(t) is 
+ PrivQ.size inside the 'else' case of for loop is 174
+ Excess of 1 is 
+
+Initial value of privQ when value of privQ.front is -194
+ PrivQ.size inside the 'else' case of for loop is 0
+Size of privQ when value of privQ.front is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 317: 
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 03
+Size of privQ when value of privQ.front is 3: 4
+ value in privQ is 3
+Entered Discharge fn for node 3
+ Excess of node 3 is 
+ ---- SETTING FLAG TO 12
+ privQ.front is 3
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 170
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t-19
+ ------- Value of smallest ht vertex is 2
+ PrivQ.size inside the 'else' case of for loop is 0
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+ #########   excess is 17
+ Excess of 1 is 2-19
+Min amount is 2
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Residual capacity in the edge 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 3-19 to 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 1017
+Excess updated inside Push
+ Excess of 1 is 
+---******((---Excess value of New overflowing vertex [-192
+ PrivQ.size inside the 'else' case of for loop is ] is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Size of privQ is 
+ Excess of 1 is 4-19
+ value in privQ is 
+ PrivQ.size inside the 'else' case of for loop is 20
+Entered Discharge fn for node 2
+ ---- SETTING FLAG TO 1
+ Excess of node 2
+ -----^^^----Excess value of e(t) is  is 17
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 02
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 017
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ------- Value of smallest ht vertex is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 171
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Entered for loop when i = 
+ -----^^^----Excess value of e(t) is 171
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 217
+ entering 'if' loop to check dist2 < dist_t
+ Excess of 1 is 
+ ------- Value of smallest ht vertex is -195
+ PrivQ.size inside the 'else' case of for loop is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t0
+ #########   excess is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Min amount is 0
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+Residual capacity in the edge 
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1 to 
+ -----^^^----Excess value of e(t) is 517 is 
+ Excess of 1 is -190
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Excess updated inside Push17
+---******((---Excess value of New overflowing vertex [
+ Excess of 1 is 5-19
+ PrivQ.size inside the 'else' case of for loop is ] is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ Size of privQ is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ value in privQ is 
+ -----^^^----Excess value of e(t) is 517
+Entered Discharge fn for node 
+ Excess of 1 is 5-19
+ Excess of node 
+ PrivQ.size inside the 'else' case of for loop is 50 is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+ privQ.front is 175
+ Excess of 1 is 
+Entered for loop when i = -190
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ entering 'if' loop to check dist2 < dist_t
+ -----^^^----Excess value of e(t) is 
+ ------- Value of smallest ht vertex is 174
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Distance of node 175
+ Excess of 1 is  is -198
+ PrivQ.size inside the 'else' case of for loop is 
+ Size of privQ is 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ Excess of 1 is 
+ PrivQ.size inside the 'else' case of for loop is -19
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+
+Initial value of privQ when value of privQ.front is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 174
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -193
+ PrivQ.size inside the 'else' case of for loop is : 03
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 3: 174
+ Excess of 1 is -19
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 13
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 17
+ Excess of 1 is -192
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 20: 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+
+Initial value of privQ when value of privQ.front is 172
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 5-19: 
+ PrivQ.size inside the 'else' case of for loop is 03
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Size of privQ when value of privQ.front is 17
+ Excess of 1 is -195
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is : 17
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ value in privQ is 
+ Excess of 1 is 5-19
+Entered Discharge fn for node 
+ PrivQ.size inside the 'else' case of for loop is 50
+ Excess of node 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is  is 17
+ Excess of 1 is -192
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 05
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Entered for loop when i = 
+ Excess of 1 is 0-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ entering 'if' loop to check dist2 < dist_t
+ ---- SETTING FLAG TO 1
+ ------- Value of smallest ht vertex is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 4-19
+ PrivQ.size inside the 'else' case of for loop is 
+Entered for loop when i = 02
+ ---- SETTING FLAG TO 1
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ -----^^^----Excess value of e(t) is 
+ #########   excess is 172
+ Excess of 1 is 
+Min amount is -19
+ PrivQ.size inside the 'else' case of for loop is 20
+ ---- SETTING FLAG TO 1
+Residual capacity in the edge 
+ -----^^^----Excess value of e(t) is 517
+ Excess of 1 is  to -19
+ PrivQ.size inside the 'else' case of for loop is 40 is 
+ ---- SETTING FLAG TO 15
+ -----^^^----Excess value of e(t) is 17
+Excess updated inside Push
+ Excess of 1 is 
+---******((---Excess value of New overflowing vertex [-194
+ PrivQ.size inside the 'else' case of for loop is ] is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Size of privQ is 
+ Excess of 1 is 4-19
+ ---- SETTING FLAG TO 1
+ PrivQ.size inside the 'else' case of for loop is 0
+ -----^^^----Excess value of e(t) is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 1717
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 
+ value in privQ is 174
+Entered Discharge fn for node 
+ Excess of 1 is 4-19
+ Excess of node 
+ PrivQ.size inside the 'else' case of for loop is 40 is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is 2-19
+ PrivQ.size inside the 'else' case of for loop is 
+ privQ.front is 04
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 170
+ Excess of 1 is 
+ entering 'if' loop to check dist2 < dist_t-19
+ ------- Value of smallest ht vertex is 
+ PrivQ.size inside the 'else' case of for loop is 10
+Entered for loop when i = 
+ ---- SETTING FLAG TO 11
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 172
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+Distance of node 04
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 817
+ Size of privQ is 
+ Excess of 1 is 4-19
+
+Initial value of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Size of privQ when value of privQ.front is 
+ Excess of 1 is 2-19: 
+ PrivQ.size inside the 'else' case of for loop is 30
+ ---- SETTING FLAG TO 1
+Size of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -192
+ PrivQ.size inside the 'else' case of for loop is : 04
+ ---- SETTING FLAG TO 1
+
+Initial value of privQ when value of privQ.front is 
+ -----^^^----Excess value of e(t) is 217
+ Excess of 1 is -19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 50
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is 
+Size of privQ when value of privQ.front is -195: 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+
+Initial value of privQ when value of privQ.front is 
+ Excess of 1 is 5-19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 40
+ ---- SETTING FLAG TO 1: 
+ -----^^^----Excess value of e(t) is 317
+ Excess of 1 is -19
+Size of privQ when value of privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 0
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is : 174
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 10
+ -----^^^----Excess value of e(t) is 
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 1717
+ Excess of 1 is 
+ Excess of 1 is -19-19
+ PrivQ.size inside the 'else' case of for loop is 0
+ PrivQ.size inside the 'else' case of for loop is 
+ ---- SETTING FLAG TO 14
+ -----^^^----Excess value of e(t) is 17
+ value in privQ is 
+ Excess of 1 is 4
+Entered Discharge fn for node -194
+ PrivQ.size inside the 'else' case of for loop is 
+ Excess of node 04
+ ---- SETTING FLAG TO 1 is 
+ -----^^^----Excess value of e(t) is 172
+ Excess of 1 is -19
+ privQ.front is 
+ PrivQ.size inside the 'else' case of for loop is 40
+Entered for loop when i = 
+ ---- SETTING FLAG TO 10
+ -----^^^----Excess value of e(t) is 17
+ Excess of 1 is -19
+ PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t0
+ ------- Value of smallest ht vertex is 1
+Entered for loop when i = 
+ ---- SETTING FLAG TO 11
+ -----^^^----Excess value of e(t) is 
+Entered for loop when i = 172
+ Excess of 1 is -19
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ PrivQ.size inside the 'else' case of for loop is 
+ #########   excess is 02
+Min amount is 
+ ---- SETTING FLAG TO 12
+ -----^^^----Excess value of e(t) is 
+Residual capacity in the edge 174
+ Excess of 1 is  to -191
+ PrivQ.size inside the 'else' case of for loop is  is 02
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+Excess updated inside Push
+---******((---Excess value of New overflowing vertex [1] is -17
+ Size of privQ is 4
+
+Initial value of privQ when value of privQ.front is 3
+Size of privQ when value of privQ.front is 2: 3
+Size of privQ when value of privQ.front is 2: 4
+
+Initial value of privQ when value of privQ.front is 2
+Size of privQ when value of privQ.front is 5: 3
+Size of privQ when value of privQ.front is 5: 4
+
+Initial value of privQ when value of privQ.front is 5
+Size of privQ when value of privQ.front is 4: 3
+Size of privQ when value of privQ.front is 4: 4
+ ---- SETTING FLAG TO 1
+ -----^^^----Excess value of e(t) is 17
+
+Threads terminated.. Back to main 
+Thank you
+
+Excess of source is -17
+ Distance of [3] is 8
+ Distance of [2] is 7

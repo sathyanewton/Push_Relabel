@@ -1,0 +1,98 @@
+Actual Report content
+
+INTRODUCTION :
+
+
+
+2. The Maximum Flow problem and graph theory basics :
+
+The Maximum Flow problem(Max-Flow) is one of the combinatorial optimization problem which computes the maximum amount of commodity flow from the source(s) to sink(t) of a given directed and weighted graph(flow network). 
+
+The maximum flow problem was first formulated in 1954 by T. E. Harris and F. S. Ross as a simplified model of Soviet railway traffic flow.[1]
+
+1)	Schrijver, Alexander. "On the history of the transportation and maximum flow problems." Mathematical Programming 91.3 (2002): 437-445.
+
+The "Ford-Fulkerson" algorithm was the first known algorithm that was formulated by R. Ford, Jr. and Delbert R. Fulkerson in 1955 [2]. Over the years we have developed many more sophisticated techniques to find max-flow such as shortest augmenting path algorithm of Edmonds and Karp and independently Dinitz; the blocking flow algorithm of Dinitz; the push-relabel algorithm of Goldberg and Tarjan; and the binary blocking flow algorithm of Goldberg and Rao. 
+
+The following table shows the many popular max-flow algorithms and their running times. 
+
+>>>>>>>>>>>>>>>>>>>>> Insert table from wikipedia <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2)	Ford, Lester R., and Delbert R. Fulkerson. "Maximal flow through a network." Canadian journal of Mathematics 8.3 (1956): 399-404.
+
+Flow networks can be used to model pipeline network, information through computer networks and commodities through highways. 
+
+Problem statement: 
+In order to define the problem statement, we have to define the following components associated with the problem.  
+
+A flow f(u,v) from one vertex u to another vertex v is the total amount of commodity that flows from u to v.
+
+This flow value is bound by the following conditions, 
+
+				Capacity Constraint: f (u, v) ≤ C subscript-uv, for u, v є V
+				Flow conservation property(Relaxed) : Σ f (v, u) – Σ f (u, v) ≥ 0 for all v є V and u є V-{s}
+
+Which in other words means, that total flow into a node from its one or more neighbors is less than or equal to the amount of flow going outside the node. It is noteworthy to mention this property is a relaxed version of the actual flow conservation property, which is Σ f (v, u) – Σ f (u, v) = 0.
+
+A flow network is a graph G(V, E) where all vertices's v ∈ {v1,v2,v3,v4....v subscript-n} and e ∈  {e1,e2,e3,e4,.......e subscript-n} , where edge (u, v) ∈ E, has capacity c subscript-uv > 0. c subscript-uv is equal to 0, if edge (u,v) ∉ E. Another characteristic feature of a flow network is that it has a source node s ∈ V and a sink node t ∈ V.[3] 
+
+Execs can now be defined as the total amount of flow that comes into a node - the total amount of flow that can go outside a given node. 
+
+Height associated with a node is a label used to determine the direction of flow while in the propagation of the algorithm. 
+
+Notable properties of source and sink 
+
+source (s):  The source can theoretically give a flow of ∞. But the amount of flow that actually comes out of source is limited by the sum of capacities of all the edges coming out of the source.
+The height of source is set to the total number of nodes that are there in the network. Height of the source node remains unchanged during the course of execution of the algorithm.
+
+Sink (t): The sink can theoretically take in a flow of ∞. The height of the sink is 0 while the algorithm begins and remains 0 all through it's execution.
+
+3) http://www.cs.cmu.edu/afs/cs/academic/class/15499-s09/www/scribe/lec15/lec15.pdf
+
+Given all the above definitions and considerations, finding the maximum amount of flow that can go from source to sink is the max-flow problem.
+
+3. The Target Hardware Platform 
+
+Processor Model Numbers and Specifications : 
+
+In our server, we have a 2 :  Intel(R) Xeon(R) CPU E5-2650 v2 CPUs. Each of these processors have 8 cores with hyper-threading facility. Essentially, the optimal number of software threads that can be supported at any point in time by the hardware is 32(8*2(no. of processors)*2(Hyperthreading)).[4]
+
+Sizes and organization of caches is as follows:
+
+L1 cache size = 32 KB (8 of them in number : one for each core)  
+  
+L2 cache size = 256 KB (8 of them in number : one for each core)  
+  
+L3 cache size = 20 MB (1 common for all 8 cores)  
+
+The micro-architecture used is "Ivy-Bridge".[4] 
+
+>>>>>>>>>>> Attach Picture from Dr.R Report <<<<<<<<<<<<<<<<<<<<<<<<
+
+4) http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E5-2650.html
+
+The Ivy-Bridge micro-architecture has two memory read ports where previous generation architecture had only one. This is a significant improvement. Cache bank conflicts are quite common when the maximum memory bandwidth is utilized [5]. It is noteworthy to mention that in Ivy-Bridge it is observed that instruction pref etching is comparatively slower than it's contemporaries in the market [6].
+
+6) Plattner, Hasso. "Changes in hardware." A Course in In-Memory Data Management. Springer Berlin Heidelberg, 2014. 23-32.
+
+Contemporary architectures such as Ivy-Bridge has a whole lot of optimizations in how they perform most of the mainstream hardware operations. Some example of such optimizations are as follows Micro-operations caching ,Micro-operation fusion, Loop buffer (holds decoded code of a loop or similar iterative section of the code, hence we don’t have to decode every time once the pattern is recognized). We have 4 decoders. One complex instructions decoder and 3 simple instruction decoders and stack engine that provides hardware support for stack operations.[5] 
+ 
+The µop cache is organized as 32 sets * 8 ways * 6 µops, totaling a maximum capacity of 1536 µops. It can allocate a maximum of 3 lines of 6 µops each for each aligned and contiguous 32-bytes block of code. Code that runs out of the µop cache are not subject to the limitations of the fetch and decode units. It can deliver a throughput of 4  (possibly fused) µops or the equivalent of 32 bytes of code per clock cycle. The µop cache is rarely used to the maximum capacity of 1536 µops. The utilization is often less than optimal.[5] 
+
+When talking about multi-core platforms, the different cores in a processor has to share various hardware resources. There are 3 schemes of resource sharing competitively shared, evenly shared and duplicated. Competitively shared resources are shared in such a manner that if first thread takes more of a resource,the next thread gets less of it. Example of resources that does competitive sharing are caches,branch target buffers,global history table, execution ports,read/write buffers and execution units.[5] 
+
+Evenly shared resources are shared in such a way that each thread can hold the resource in alternate clock cycles. Example of evenly shared components are Instruction fetch and decode units, Register alias table and Reorder buffer. Duplication is a technique by which there is one such component or resource for each thread. Permanent register file and loop buffer are examples of components that are duplicated.[5]
+
+5) Fog, Agner. "The micro architecture of Intel, AMD and VIA CPUs/An optimization guide for assembly programmers and compiler makers." (2012).
+
+4.Algorithm 
+
+
+Sequential Push-Relabel Algorithm: 
+
+Sequential Push-Relabel Algorithm was invented by A.V Goldberg and is generally refereed to as "generic" push relabel maximum-flow algorithm and it runs in a running time O(|V superscript-2||E|). Better than Edmonds-Karp algorithm that runs in O(|V||E superscript-2|) time. Push-Relabel Algorithm works in a more localized manner than the Ford-Fulkerson Algorithm. Rather than operate with the entire residual graph to find augmenting path, Push-Relabel algorithm works only with a given node and it's neighboring nodes. Unlike Ford-Wilkerson the Push-Relabel algorithm does not maintain flow conservation but it maintains a a relaxed version of flow-conservation property, details of which we discussed in the the previous section. 
+
+Intuition of the Push-Relabel Algorithm: 
+
+We can conceive the intuition behind the Push-Relabel approach by imagining a network of reservoirs(fluid tanks) connected by pipes of different capacities. The reservoirs represent nodes and the pipes represent the vertex. The capacity of each pipe represents the weight of each edge in the directed network. Unlike real pipes, who's capacity describes the rate of flow imagine our pipes represent the actual volume of flow. Hence capacity constraint is maintained as if the volume of fluid that goes through a pipe should always be less than or equal to the maximum capacity of the pipe. Relaxed-Flow conservation is maintained by the fact that amount of fluid flowing out of a reservoir should always be less than or equal to the sum of all volumes of fluid that come into that reservoir. This relaxation leaves a room to a parameter known as excess which is the difference in amount that flows in to the amount that flows out.         
+

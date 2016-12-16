@@ -1,0 +1,510 @@
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 33 privQ's front  privQ's front 53
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 2
+privQ's size before a push operation : 2 privQ's front 5
+privQ's size after a push operation : 3 privQ's front 5
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+In thread 2this is not the first push operation and excess[privQ.front] is greater than 0 Entered Discharge fn for node 3
+Excess of node 3 is 5
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 2
+
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 5
+
+Min amount is 5
+
+ Size of privQ is 3
+In thread 2this is not the first push operation and excess[privQ.front] is greater than 0 Entered Discharge fn for node 2
+Excess of node 2 is 3
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+PrivQ.size inside the 'else' case of for loop is 3
+In thread 2this is not the first push operation and excess[privQ.front] is greater than 0 Entered Discharge fn for node 2
+Excess of node 2 is 3
+
+Entered for loop while finding min-height of the node i = 1
+
+Distance of node 2 is 8
+
+ Size of privQ is 3
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 3
+privQ's size after a push operation : 3 privQ's front 3
+inside while in thread 2
+Excess of 1 is -19
+Excess of 6 is 16
+PrivQ.size inside the 'else' case of for loop is 3
+Excess value is <= 0 value of privQ.front is 3
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+In thread 2this is not the first push operation and excess[privQ.front] is greater than 0 Entered Discharge fn for node 2
+Excess of node 2 is 3
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+
+Entered for loop while finding min-height of the node i = 1
+
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 3
+
+Min amount is 3
+
+ Size of privQ is 3
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 3
+privQ's size after a push operation : 3 privQ's front 3
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+
+Entered for loop while finding min-height of the node i = 1
+
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 3
+
+Min amount is 3
+
+ Size of privQ is 3
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 2 privQ's front 4
+privQ's size after a push operation : 3 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 2 privQ's front 2
+privQ's size after a push operation : 3 privQ's front 2
+
+
+Threads terminated.. Back to main dist loop : 7
+excess loop : -13
+dist loop : 8
+excess loop : -3
+dist loop : 8
+excess loop : 0
+dist loop : 1
+excess loop : 0
+dist loop : 1
+excess loop : 0
+dist loop : 0
+excess loop : 16
+
+Excess of source is -13
+
+Excess of source is 16

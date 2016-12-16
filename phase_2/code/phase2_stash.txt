@@ -1,0 +1,1384 @@
+print_graph
+1->2->4
+2->1->3->5
+3->2->4->6
+4->1->5->3
+5->4->2->6
+6->3->5
+inverse coming upafter args pass
+inside initialize
+active of s = 1
+active of t = 1
+inside main chunk of parallel_initialize
+inside enqueue0
+inside enqueue1
+inside enqueue2
+Basic round robin scheduler
+node 2 going to thread 0
+inside main chunk of parallel_initialize
+inside enqueue0
+inside enqueue1
+inside enqueue2
+Basic round robin scheduler
+node 4 going to thread 1
+pushing size for thread :0
+pushing size for thread :1
+pushing size for thread :2
+pushing size for thread :3
+resizing thread :0
+resizing thread :1
+resizing thread :2
+resizing thread :3
+returning to main
+back to main
+i -> 0j -> 0 returnexcess value : 2
+i -> 0j -> 1 returnexcess value : 1
+i -> 1j -> 0 returnexcess value : 4
+i -> 1j -> 1 returnexcess value : 1
+i -> 2j -> 0 returnexcess value : 0
+i -> 3j -> 0 returnexcess value : 0
+p.returnexcess[i].size()-1 1
+calling thread create for thread-id : 0
+p.returnexcess[i][p.returnexcess[i].size()-1] -> 1
+p.returnexcess[i].size()-1 1
+calling thread create for thread-id : 1
+p.returnexcess[i][p.returnexcess[i].size()-1] -> 1
+entered thread
+p.returnexcess[i].size()-1 0
+calling thread create for thread-id : 2
+p.returnexcess[i][p.returnexcess[i].size()-1] -> 0
+entered thread
+p.returnexcess[i].size()-1 0
+calling thread create for thread-id : 3
+p.returnexcess[i][p.returnexcess[i].size()-1] -> 0
+after checkpoint
+inside thread : 140329765308160 excess[s] before while :-19excess[t] before while :0
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 0
+inside flag==0 loop
+whats in the queue : 2of thread :140329765308160
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 0
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 1
+Entered Discharge fn for node 2
+Excess of node 2 is 15
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+
+Entered for loop while finding min-height of the node i = 1
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 3
+
+Entered for loop while finding min-height of the node i = 2
+
+Distance of node 2 is 1
+after checkpoint
+ Size of privQ is 
+1inside thread : 
+master count : 1403297569154561 excess[s] before while :
+-19excess[t] before while :0inside while in thread 
+0
+inside while in thread Excess of 1 is -19
+0Excess of 6 is 0
+
+second push and lift operationExcess of 1 is -19
+
+PrivQ.size inside the 'else' case of for loop is Excess of 6 is 1
+0
+Entered Discharge fn for node inside flag==0 loop
+2
+whats in the queue : Excess of node 42of thread : is 140329756915456
+15inside while in thread 
+0
+Excess of 1 is at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+-19
+
+Entered for loop while finding min-height of the node i = Excess of 6 is 00
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is second push and lift operation1
+
+PrivQ.size inside the 'else' case of for loop is 
+Entered for loop while finding min-height of the node i = 11
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is Entered Discharge fn for node 3
+4
+Entered for loop while finding min-height of the node i = 
+2
+Excess of node 
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+4excess is  is 154
+
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Min amount is 
+Entered for loop while finding min-height of the node i = 120
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+
+Entered for loop while finding min-height of the node i = 1
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 5
+
+Entered for loop while finding min-height of the node i = 2
+
+Distance of node 4
+ Size of privQ is  is 2
+master count : 12
+
+inside while in thread 0
+ Size of privQ is 1
+master count : 1
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 0
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 1
+Entered Discharge fn for node 4
+Excess of node 4 is 4
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+
+Entered for loop while finding min-height of the node i = 1
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 5
+
+Entered for loop while finding min-height of the node i = 2
+
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 4
+
+Min amount is 4
+
+ Size of privQ is 2
+master count : 2
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 0
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Entered Discharge fn for node 5
+Excess of node 5 is 4
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 4
+
+Entered for loop while finding min-height of the node i = 2
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 6
+
+Distance of node 5 is 1
+
+ Size of privQ is 2
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 3
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 0
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Entered Discharge fn for node 5
+Excess of node 5 is 4
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 4
+
+Entered for loop while finding min-height of the node i = 2
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 6
+
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 4
+
+Min amount is 4
+
+ Size of privQ is 2
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 4
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 5
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 6
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 7
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 8
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 9
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 10
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 11
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 12
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 13
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 14
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 15
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 16
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 17
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 18
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 19
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 20
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 21
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 22
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 23
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 24
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 25
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 26
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 27
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 28
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 29
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 30
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 31
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 32
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 33
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 34
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 35
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 36
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 37
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 38
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 39
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 40
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 41
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is entered threadentered thread
+
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Entered Discharge fn for node 3
+4Excess of node 3 is 
+12
+privQ's size before a push operation : at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+1 privQ's front 5
+Entered for loop while finding min-height of the node i = 
+0privQ's size after a push operation : 2
+ privQ's front 
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 52
+
+master count : 
+Entered for loop while finding min-height of the node i = 422
+
+
+ entering 'if' loop to check dist2 < dist_t
+inside while in thread 
+ ------- Value of smallest ht vertex is 06
+Excess of 1 is 
+-19
+Excess of 6 is 4
+Distance of node 
+3second push and lift operation is 
+1
+PrivQ.size inside the 'else' case of for loop is 
+ Size of privQ is 22
+
+Entered Discharge fn for node Excess value is <= 0 value of privQ.front is 2
+5Excess of node 2
+ is 3
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+privQ's size before a push operation : 
+Entered for loop while finding min-height of the node i = 01
+ privQ's front 4
+
+ entering 'if' loop to check dist2 < dist_t
+privQ's size after a push operation : 
+ ------- Value of smallest ht vertex is 21
+ privQ's front 
+Entered for loop while finding min-height of the node i = 42
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is Excess value is <= 0 value of privQ.front is 54
+
+privQ's size before a push operation : 
+Distance of node 12 privQ's front  is 5
+2privQ's size after a push operation : 
+2 privQ's front 
+ Size of privQ is 5
+master count : 243
+
+master count : inside while in thread 30
+
+Excess of 1 is inside while in thread -190
+
+Excess of 6 is Excess of 1 is 4
+-19second push and lift operation
+
+Excess of 6 is PrivQ.size inside the 'else' case of for loop is 24
+
+Excess value is <= 0 value of privQ.front is 5second push and lift operation
+
+privQ's size before a push operation : PrivQ.size inside the 'else' case of for loop is 21
+ privQ's front 4Entered Discharge fn for node 
+3
+Excess of node privQ's size after a push operation : 32 is  privQ's front 124
+
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+Excess value is <= 0 value of privQ.front is 
+Entered for loop while finding min-height of the node i = 40
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is privQ's size before a push operation : 21 privQ's front 
+5
+Entered for loop while finding min-height of the node i = 
+2
+
+ entering 'if' loop to check dist2 < dist_t
+privQ's size after a push operation : 
+ ------- Value of smallest ht vertex is 2 privQ's front 56
+master count : 
+44
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+
+excess is inside while in thread 120
+
+Min amount is 
+7
+Excess of 1 is -19
+Excess of 6 is 4
+second push and lift operation
+ Size of privQ is 
+2
+PrivQ.size inside the 'else' case of for loop is Entered Discharge fn for node 22
+
+Excess value is <= 0 value of privQ.front is 5Excess of node 
+2 is privQ's size before a push operation : 31 privQ's front 
+4at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+
+Entered for loop while finding min-height of the node i = privQ's size after a push operation : 20 privQ's front 
+4
+ entering 'if' loop to check dist2 < dist_t
+
+
+ ------- Value of smallest ht vertex is 1
+Excess value is <= 0 value of privQ.front is 4
+Entered for loop while finding min-height of the node i = 
+2
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is privQ's size before a push operation : 51
+ privQ's front 5
+privQ's size after a push operation : 2 privQ's front 5
+master count : 45
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 11
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+privQ's size before a push operation : 
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+1 privQ's front 4excess is 
+3
+privQ's size after a push operation : 
+Min amount is 23 privQ's front 
+4
+Excess value is <= 0 value of privQ.front is 4
+
+ Size of privQ is privQ's size before a push operation : 21 privQ's front 
+master count : 54
+
+inside while in thread 0
+Excess of 1 is privQ's size after a push operation : -192
+ privQ's front Excess of 6 is 511
+
+second push and lift operation
+master count : PrivQ.size inside the 'else' case of for loop is 246
+
+inside while in thread Entered Discharge fn for node 03
+
+Excess of node Excess of 1 is 3-19 is 
+5Excess of 6 is 
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+11
+
+Entered for loop while finding min-height of the node i = second push and lift operation
+0PrivQ.size inside the 'else' case of for loop is 
+2
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is Entered Discharge fn for node 2
+5
+Excess of node 
+Distance of node 5 is 33
+ is at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+3
+Entered for loop while finding min-height of the node i = 
+0
+
+ Size of privQ is 
+ entering 'if' loop to check dist2 < dist_t
+2
+ ------- Value of smallest ht vertex is 4
+
+Excess value is <= 0 value of privQ.front is 2
+Entered for loop while finding min-height of the node i = 
+1
+
+Entered for loop while finding min-height of the node i = privQ's size before a push operation : 21 privQ's front 
+3
+
+ entering 'if' loop to check dist2 < dist_t
+privQ's size after a push operation : 2
+ ------- Value of smallest ht vertex is  privQ's front 6
+3
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+
+excess is master count : 3
+5
+
+Min amount is inside while in thread 0
+3Excess of 1 is 
+-19
+Excess of 6 is 14
+
+ Size of privQ is second push and lift operation2
+
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is Entered Discharge fn for node 3
+4Excess of node 3
+ is privQ's size before a push operation : 15 privQ's front 5
+
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = privQ's size after a push operation : 0
+2
+ entering 'if' loop to check dist2 < dist_t
+ privQ's front 
+ ------- Value of smallest ht vertex is 52
+
+master count : 
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+47excess is 5
+
+inside while in thread 
+Min amount is 05
+
+Excess of 1 is -19
+Excess of 6 is 
+ Size of privQ is 142
+
+second push and lift operation
+Entered Discharge fn for node PrivQ.size inside the 'else' case of for loop is 22
+Excess of node 
+2Excess value is <= 0 value of privQ.front is  is 5
+5privQ's size before a push operation : 
+1at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+ privQ's front 
+Entered for loop while finding min-height of the node i = 40
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is privQ's size after a push operation : 12
+ privQ's front 
+Entered for loop while finding min-height of the node i = 14
+
+Excess value is <= 0 value of privQ.front is 
+ entering 'if' loop to check dist2 < dist_t
+4
+ ------- Value of smallest ht vertex is 
+3
+
+Entered for loop while finding min-height of the node i = privQ's size before a push operation : 2
+1
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is  privQ's front 55
+
+privQ's size after a push operation : 2
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+ privQ's front excess is 55
+
+
+Min amount is master count : 48
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 14
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 52
+privQ's size before a push operation : 
+1 privQ's front 4
+privQ's size after a push operation : 2
+ Size of privQ is  privQ's front 24
+
+master count : 6
+Excess value is <= 0 value of privQ.front is inside while in thread 4
+0privQ's size before a push operation : 
+1Excess of 1 is  privQ's front 5
+-19privQ's size after a push operation : 
+2 privQ's front Excess of 6 is 514
+second push and lift operation
+
+master count : 49PrivQ.size inside the 'else' case of for loop is 
+2
+inside while in thread 0Excess value is <= 0 value of privQ.front is 
+3
+Excess of 1 is -19privQ's size before a push operation : 
+1 privQ's front Excess of 6 is 2
+14privQ's size after a push operation : 2
+ privQ's front second push and lift operation2
+
+PrivQ.size inside the 'else' case of for loop is Entered Discharge fn for node 2
+2Excess of node 2
+ is Entered Discharge fn for node 53
+
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+Excess of node 
+Entered for loop while finding min-height of the node i = 50
+ is 
+ entering 'if' loop to check dist2 < dist_t
+2
+ ------- Value of smallest ht vertex is 
+1at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+
+Entered for loop while finding min-height of the node i = 0
+Entered for loop while finding min-height of the node i = 
+1
+
+ entering 'if' loop to check dist2 < dist_t
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 
+ ------- Value of smallest ht vertex is 43
+
+
+Entered for loop while finding min-height of the node i = 1
+Distance of node 
+2 is 
+Entered for loop while finding min-height of the node i = 42
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ Size of privQ is 
+ ------- Value of smallest ht vertex is 2
+master count : 6
+7
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+
+excess is inside while in thread 20
+
+Excess of 1 is 
+Min amount is -19
+2Excess of 6 is 14
+
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 
+ Size of privQ is 22
+
+Excess value is <= 0 value of privQ.front is Excess value is <= 0 value of privQ.front is 43
+
+privQ's size before a push operation : privQ's size before a push operation : 1 privQ's front 21
+ privQ's front 5
+privQ's size after a push operation : privQ's size after a push operation : 2 privQ's front 22
+ privQ's front Entered Discharge fn for node 52
+
+Excess of node master count : 250 is 
+inside while in thread 30
+Excess of 1 is 
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+-19
+Entered for loop while finding min-height of the node i = 
+0Excess of 6 is 
+16
+ entering 'if' loop to check dist2 < dist_t
+
+
+ ------- Value of smallest ht vertex is 1
+second push and lift operation
+Entered for loop while finding min-height of the node i = 1
+
+PrivQ.size inside the 'else' case of for loop is 
+ entering 'if' loop to check dist2 < dist_t
+2
+
+ ------- Value of smallest ht vertex is Excess value is <= 0 value of privQ.front is 35
+
+privQ's size before a push operation : 1 privQ's front 
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 43
+
+
+Min amount is 3
+privQ's size after a push operation : 2 privQ's front 4
+ Size of privQ is 
+2
+master count : Excess value is <= 0 value of privQ.front is 84
+
+inside while in thread privQ's size before a push operation : 01
+ privQ's front 5
+Excess of 1 is privQ's size after a push operation : 2 privQ's front -195
+
+master count : Excess of 6 is 51
+inside while in thread 160
+Excess of 1 is 
+-19
+Excess of 6 is second push and lift operation16
+second push and lift operation
+
+PrivQ.size inside the 'else' case of for loop is PrivQ.size inside the 'else' case of for loop is 22
+
+Entered Discharge fn for node Excess value is <= 0 value of privQ.front is 35
+
+privQ's size before a push operation : 1 privQ's front 4
+privQ's size after a push operation : 2 privQ's front 4
+Excess value is <= 0 value of privQ.front is 4
+privQ's size before a push operation : 1 privQ's front 5
+Excess of node privQ's size after a push operation : 2 privQ's front 5
+master count : 52
+inside while in thread 0
+Excess of 1 is -19
+3Excess of 6 is  is 163
+
+second push and lift operationat this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+
+Entered for loop while finding min-height of the node i = PrivQ.size inside the 'else' case of for loop is 02
+
+Excess value is <= 0 value of privQ.front is 
+ entering 'if' loop to check dist2 < dist_t
+5
+ ------- Value of smallest ht vertex is 
+2
+privQ's size before a push operation : 1
+Distance of node  privQ's front 3 is 54
+
+ Size of privQ is 
+2
+privQ's size after a push operation : Excess value is <= 0 value of privQ.front is 2 privQ's front 24
+
+Excess value is <= 0 value of privQ.front is privQ's size before a push operation : 41 privQ's front 
+3
+privQ's size before a push operation : privQ's size after a push operation : 12 privQ's front  privQ's front 3
+5master count : 
+9
+inside while in thread privQ's size after a push operation : 02 privQ's front 5
+
+master count : Excess of 1 is 53
+-19inside while in thread 
+0Excess of 6 is 
+16Excess of 1 is 
+second push and lift operation
+-19
+PrivQ.size inside the 'else' case of for loop is Excess of 6 is 2
+16
+Entered Discharge fn for node second push and lift operation
+3PrivQ.size inside the 'else' case of for loop is 
+2
+Excess of node Excess value is <= 0 value of privQ.front is 35 is 
+3
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+privQ's size before a push operation : 
+Entered for loop while finding min-height of the node i = 10
+ privQ's front 
+ entering 'if' loop to check dist2 < dist_t
+4
+ ------- Value of smallest ht vertex is 
+2
+privQ's size after a push operation : 2 privQ's front 4
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+
+excess is Excess value is <= 0 value of privQ.front is 4
+3privQ's size before a push operation : 1
+ privQ's front 5
+
+Min amount is privQ's size after a push operation : 32 privQ's front 5
+
+master count : 54
+inside while in thread 0
+Excess of 1 is 
+ Size of privQ is -19
+Excess of 6 is 216
+second push and lift operation
+
+PrivQ.size inside the 'else' case of for loop is Entered Discharge fn for node 22
+
+Excess of node Excess value is <= 0 value of privQ.front is 25
+ is privQ's size before a push operation : 31
+ privQ's front 4at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+
+Entered for loop while finding min-height of the node i = 0privQ's size after a push operation : 
+2 privQ's front 4
+ entering 'if' loop to check dist2 < dist_t
+
+
+ ------- Value of smallest ht vertex is 1
+Excess value is <= 0 value of privQ.front is 
+Entered for loop while finding min-height of the node i = 41
+
+
+ entering 'if' loop to check dist2 < dist_t
+privQ's size before a push operation : 
+ ------- Value of smallest ht vertex is 1 privQ's front 35
+
+privQ's size after a push operation : 
+Distance of node 22 is  privQ's front 65
+master count : 
+55
+
+ Size of privQ is inside while in thread 0
+2Excess of 1 is 
+-19
+Excess of 6 is master count : 16
+second push and lift operation10
+
+PrivQ.size inside the 'else' case of for loop is 2inside while in thread 
+0
+Excess value is <= 0 value of privQ.front is Excess of 1 is 5
+-19
+privQ's size before a push operation : Excess of 6 is 1 privQ's front 416
+
+second push and lift operationprivQ's size after a push operation : 
+PrivQ.size inside the 'else' case of for loop is 22
+ privQ's front Excess value is <= 0 value of privQ.front is 43
+
+privQ's size before a push operation : Excess value is <= 0 value of privQ.front is 1 privQ's front 24
+
+privQ's size after a push operation : 2 privQ's front privQ's size before a push operation : 21 privQ's front 
+5Entered Discharge fn for node 2
+
+Excess of node 2privQ's size after a push operation : 2 privQ's front 5
+master count : 56
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 16
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2 is 
+Excess value is <= 0 value of privQ.front is 5
+3privQ's size before a push operation : 
+1at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+ privQ's front 
+Entered for loop while finding min-height of the node i = 40
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is privQ's size after a push operation : 1
+2
+Entered for loop while finding min-height of the node i =  privQ's front 1
+4
+ entering 'if' loop to check dist2 < dist_t
+
+Excess value is <= 0 value of privQ.front is 
+ ------- Value of smallest ht vertex is 43
+
+privQ's size before a push operation : 
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+1excess is 3 privQ's front 
+5
+Min amount is 3
+
+privQ's size after a push operation : 2 privQ's front 5
+master count : 57
+inside while in thread 
+ Size of privQ is 0
+2Excess of 1 is 
+master count : 11-19
+
+inside while in thread Excess of 6 is 0
+Excess of 1 is 16-19
+
+Excess of 6 is second push and lift operation
+16PrivQ.size inside the 'else' case of for loop is 
+2
+second push and lift operationExcess value is <= 0 value of privQ.front is 
+5
+PrivQ.size inside the 'else' case of for loop is privQ's size before a push operation : 21
+ privQ's front 4Entered Discharge fn for node 
+3
+privQ's size after a push operation : Excess of node 32 is  privQ's front 34
+
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+Excess value is <= 0 value of privQ.front is 
+Entered for loop while finding min-height of the node i = 40
+
+privQ's size before a push operation : 1
+ entering 'if' loop to check dist2 < dist_t
+ privQ's front 
+ ------- Value of smallest ht vertex is 25
+
+privQ's size after a push operation : 2 privQ's front 
+Distance of node 53 is 7
+master count : 
+58
+inside while in thread 
+ Size of privQ is 02
+
+Excess value is <= 0 value of privQ.front is Excess of 1 is 2
+-19privQ's size before a push operation : 
+1Excess of 6 is  privQ's front 16
+second push and lift operation3
+
+privQ's size after a push operation : PrivQ.size inside the 'else' case of for loop is 22
+ privQ's front Excess value is <= 0 value of privQ.front is 35
+
+privQ's size before a push operation : master count : 1 privQ's front 124
+
+inside while in thread 0
+Excess of 1 is privQ's size after a push operation : -19
+2Excess of 6 is  privQ's front 4
+16Excess value is <= 0 value of privQ.front is 4
+
+second push and lift operation
+privQ's size before a push operation : PrivQ.size inside the 'else' case of for loop is 12
+ privQ's front Entered Discharge fn for node 53
+
+Excess of node 3privQ's size after a push operation :  is 2 privQ's front 53
+
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+master count : 
+Entered for loop while finding min-height of the node i = 590
+
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is inside while in thread 20
+
+Excess of 1 is 
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+-19excess is 
+3
+Excess of 6 is 
+Min amount is 16
+second push and lift operation3
+
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 5
+
+ Size of privQ is privQ's size before a push operation : 21
+ privQ's front Entered Discharge fn for node 42
+
+Excess of node privQ's size after a push operation : 22 privQ's front  is 43
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+
+Entered for loop while finding min-height of the node i = 0Excess value is <= 0 value of privQ.front is 
+4
+
+ entering 'if' loop to check dist2 < dist_t
+privQ's size before a push operation : 
+ ------- Value of smallest ht vertex is 11 privQ's front 
+5
+
+Entered for loop while finding min-height of the node i = 1
+
+Distance of node 2 is 8
+
+ Size of privQ is 2
+master count : 13
+inside while in thread 0
+Excess of 1 is -19
+Excess of 6 is 16
+second push and lift operation
+PrivQ.size inside the 'else' case of for loop is 2
+Excess value is <= 0 value of privQ.front is 3
+privQ's size before a push operation : 1 privQ's front 2
+privQ's size after a push operation : 2 privQ's front 2
+Entered Discharge fn for node 2
+Excess of node 2 is 3
+at this point we have to find, adjacent vertex which has the least height, to direct the next push operation.
+
+Entered for loop while finding min-height of the node i = 0
+
+ entering 'if' loop to check dist2 < dist_t
+
+ ------- Value of smallest ht vertex is 1
+
+Entered for loop while finding min-height of the node i = 1
+
+Going to execute push-----Entering loop to check if dist[u] > dist_t
+excess is 3
+
+Min amount is 3
+
+ Size of privQ is 2
+master count : 14
+privQ's size after a push operation : 2 privQ's front 5
+master count : 60
+
+after checkpointafter checkpoint
+
+inside thread : inside thread : 140329667786496140329748522752 excess[s] before while : excess[s] before while :-16-16excess[t] before while :excess[t] before while :1616
+
+
+
+Threads terminated.. Back to main dist loop : 7
+excess loop : -16
+dist loop : 8
+excess loop : 0
+dist loop : 7
+excess loop : 0
+dist loop : 1
+excess loop : 0
+dist loop : 1
+excess loop : 0
+dist loop : 0
+excess loop : 16
+
+Excess of source is -16
+ 
+Excess of sink is 16
+

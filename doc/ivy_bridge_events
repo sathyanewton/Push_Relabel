@@ -1,0 +1,535 @@
+oprofile: available events for CPU type "Intel Ivy Bridge microarchitecture"
+
+See Intel Architecture Developer's Manual Volume 3B, Appendix A and
+Intel Architecture Optimization Reference Manual (730795-001)
+
+For architectures using unit masks, you may be able to specify
+unit masks by name.  See 'opcontrol' or 'operf' man page for more details.
+
+CPU_CLK_UNHALTED: (counter: all)
+	Clock cycles when not halted (min count: 6000)
+UNHALTED_REFERENCE_CYCLES: (counter: all)
+	Unhalted reference cycles (min count: 6000)
+	Unit masks (default 0x1)
+	----------
+	0x01: No unit mask
+INST_RETIRED: (counter: all)
+	number of instructions retired (min count: 6000)
+LLC_MISSES: (counter: all)
+	Last level cache demand requests from this core that missed the LLC (min count: 6000)
+	Unit masks (default 0x41)
+	----------
+	0x41: No unit mask
+LLC_REFS: (counter: all)
+	Last level cache demand requests from this core (min count: 6000)
+	Unit masks (default 0x4f)
+	----------
+	0x4f: No unit mask
+BR_INST_RETIRED: (counter: all)
+	number of branch instructions retired (min count: 500)
+BR_MISS_PRED_RETIRED: (counter: all)
+	number of mispredicted branches retired (precise) (min count: 500)
+ld_blocks: (counter: all)
+	Blocked loads (min count: 100000)
+	Unit masks (default 0x2)
+	----------
+	0x02: (name=store_forward) loads blocked by overlapping with store buffer that cannot be 
+              forwarded
+misalign_mem_ref: (counter: all)
+	Misaligned memory references (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=loads) Speculative cache line split load uops dispatched to L1 cache
+	0x02: (name=stores) Speculative cache line split STA uops dispatched to L1 cache
+ld_blocks_partial: (counter: all)
+	Partial loads (min count: 100000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=address_alias) False dependencies in MOB due to partial compare on address
+dtlb_load_misses: (counter: all)
+	D-TLB misses (min count: 2000000)
+	Unit masks (default 0x81)
+	----------
+	0x81: (name=demand_ld_miss_causes_a_walk) Demand load Miss in all translation lookaside 
+              buffer (TLB) levels causes an page walk of any page size.
+	0x82: (name=demand_ld_walk_completed) Demand load Miss in all translation lookaside 
+              buffer (TLB) levels causes a page walk that completes of any page size.
+	0x84: (name=demand_ld_walk_duration) Demand load cycles page miss handler (PMH) is busy 
+              with this walk.
+int_misc: (counter: all)
+	Instruction decoder events (min count: 2000000)
+	Unit masks (default recovery_cycles)
+	----------
+	0x03: (name=recovery_cycles) Number of cycles waiting for the checkpoints in Resource 
+              Allocation Table (RAT) to be recovered after Nuke due to all other cases except 
+              JEClear (e.g. whenever a ucode assist is needed like SSE exception, memory 
+              disambiguation, etc...)
+	0x03: (name=recovery_stalls_count) Number of occurences waiting for the checkpoints in 
+              Resource Allocation Table (RAT) to be recovered after Nuke due to all other cases 
+              except JEClear (e.g. whenever a ucode assist is needed like SSE exception, memory 
+              disambiguation, etc...)
+uops_issued: (counter: all)
+	Uops issued (min count: 2000000)
+	Unit masks (default any)
+	----------
+	0x01: (name=any) Uops that Resource Allocation Table (RAT) issues to Reservation Station 
+              (RS)
+	0x01: (name=stall_cycles) Cycles when Resource Allocation Table (RAT) does not issue Uops 
+              to Reservation Station (RS) for the thread
+	0x01: (name=core_stall_cycles) Cycles when Resource Allocation Table (RAT) does not issue 
+              Uops to Reservation Station (RS) for all threads
+	0x10: (name=flags_merge) Number of flags-merge uops being allocated.
+	0x20: (name=slow_lea) Number of slow LEA uops being allocated. A uop is generally 
+              considered SlowLea if it has 3 sources (e.g. 2 sources + immediate) regardless if as 
+              a result of LEA instruction or not.
+	0x40: (name=single_mul) Number of Multiply packed/scalar single precision uops allocated
+arith: (counter: all)
+	Arithmetic (min count: 2000000)
+	Unit masks (default fpu_div_active)
+	----------
+	0x01: (name=fpu_div_active) Cycles when divider is busy executing divide operations
+	0x04: (name=fpu_div) Divide operations executed
+l2_rqsts: (counter: all)
+	L2 cache requests (min count: 200000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=demand_data_rd_hit) Demand Data Read requests that hit L2 cache
+	0x03: (name=all_demand_data_rd) Demand Data Read requests
+	0x04: (name=rfo_hit) RFO requests that hit L2 cache
+	0x08: (name=rfo_miss) RFO requests that miss L2 cache
+	0x0c: (name=all_rfo) RFO requests to L2 cache
+	0x10: (name=code_rd_hit) L2 cache hits when fetching instructions, code reads.
+	0x20: (name=code_rd_miss) L2 cache misses when fetching instructions
+	0x30: (name=all_code_rd) L2 code requests
+	0x40: (name=pf_hit) Requests from the L2 hardware prefetchers that hit L2 cache
+	0x80: (name=pf_miss) Requests from the L2 hardware prefetchers that miss L2 cache
+	0xc0: (name=all_pf) Requests from L2 hardware prefetchers
+l2_store_lock_rqsts: (counter: all)
+	L2 cache store lock requests (min count: 200000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss) RFOs that miss cache lines
+	0x08: (name=hit_m) RFOs that hit cache lines in M state
+	0x0f: (name=all) RFOs that access cache lines in any state
+l2_l1d_wb_rqsts: (counter: all)
+	writebacks from L1D to the L2 cache (min count: 200000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss) Count the number of modified Lines evicted from L1 and missed L2. 
+              (Non-rejected WBs from the DCU.)
+	0x04: (name=hit_e) Not rejected writebacks from L1D to L2 cache lines in E state
+	0x08: (name=hit_m) Not rejected writebacks from L1D to L2 cache lines in M state
+	0x0f: (name=all) Not rejected writebacks from L1D to L2 cache lines in any state.
+l1d_pend_miss: (counter: 2)
+	L1D miss oustandings (min count: 2000000)
+	Unit masks (default pending_cycles)
+	----------
+	0x01: (name=pending) L1D miss oustandings duration in cycles
+	0x01: (name=pending_cycles) Cycles with L1D load Misses outstanding.
+	0x01: (name=occurences) This event counts the number of L1D misses outstanding, using an 
+              edge detect to count transitions.
+dtlb_store_misses: (counter: all)
+	Store misses in all DTLB levels that cause page walks (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss_causes_a_walk) Store misses in all DTLB levels that cause page walks
+	0x02: (name=walk_completed) Store misses in all DTLB levels that cause completed page 
+              walks
+	0x04: (name=walk_duration) Cycles when PMH is busy with page walks
+	0x10: (name=stlb_hit) Store operations that miss the first TLB level but hit the second 
+              and do not cause page walks
+load_hit_pre: (counter: all)
+	Load dispatches that hit fill buffer (min count: 100000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=sw_pf) Not software-prefetch load dispatches that hit forward buffer 
+              allocated for software prefetch
+	0x02: (name=hw_pf) Not software-prefetch load dispatches that hit forward buffer 
+              allocated for hardware prefetch
+l1d: (counter: all)
+	L1D data line replacements (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=replacement) L1D data line replacements
+move_elimination: (counter: all)
+	Integer move elimination (min count: 1000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=int_not_eliminated) Number of integer Move Elimination candidate uops that 
+              were not eliminated.
+	0x02: (name=simd_not_eliminated) Number of SIMD Move Elimination candidate uops that were 
+              not eliminated.
+	0x04: (name=int_eliminated) Number of integer Move Elimination candidate uops that were 
+              eliminated.
+	0x08: (name=simd_eliminated) Number of SIMD Move Elimination candidate uops that were 
+              eliminated.
+cpl_cycles: (counter: all)
+	Unhalted core cycles qualified by ring (min count: 2000000)
+	Unit masks (default ring0)
+	----------
+	0x01: (name=ring0) Unhalted core cycles when the thread is in ring 0
+	0x01: (name=ring0_trans) Number of intervals between processor halts while thread is in 
+              ring 0
+	0x02: (name=ring123) Unhalted core cycles when thread is in rings 1, 2, or 3
+rs_events: (counter: all)
+	Reservation station (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=empty_cycles) Cycles when Reservation Station (RS) is empty for the thread
+tlb_access: (counter: all)
+	TLB access (min count: 100000)
+	Unit masks (default 0x4)
+	----------
+	0x04: (name=load_stlb_hit) Load operations that miss the first DTLB level but hit the 
+              second and do not cause page walks
+offcore_requests_outstanding: (counter: all)
+	Offcore outstanding transactions (min count: 2000000)
+	Unit masks (default cycles_with_demand_data_rd)
+	----------
+	0x01: (name=demand_data_rd) Offcore outstanding Demand Data Read transactions in uncore 
+              queue.
+	0x01: (name=cycles_with_demand_data_rd) Cycles when offcore outstanding Demand Data Read 
+              transactions are present in SuperQueue (SQ), queue to uncore
+	0x02: (name=demand_code_rd) Offcore outstanding code reads transactions in SuperQueue 
+              (SQ), queue to uncore, every cycle
+	0x04: (name=demand_rfo) Offcore outstanding RFO store transactions in SuperQueue (SQ), 
+              queue to uncore
+	0x04: (name=cycles_with_demand_rfo) Offcore outstanding demand rfo reads transactions in 
+              SuperQueue (SQ), queue to uncore, every cycle
+	0x08: (name=all_data_rd) Offcore outstanding cacheable Core Data Read transactions in 
+              SuperQueue (SQ), queue to uncore
+	0x08: (name=cycles_with_data_rd) Cycles when offcore outstanding cacheable Core Data Read 
+              transactions are present in SuperQueue (SQ), queue to uncore
+lock_cycles: (counter: all)
+	Locked cycles (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=split_lock_uc_lock_duration) Cycles when L1 and L2 are locked due to UC or 
+              split lock
+	0x02: (name=cache_lock_duration) Cycles when L1D is locked
+idq: (counter: all)
+	Instruction Decode Queue (IDQ) (min count: 2000000)
+	Unit masks (default empty)
+	----------
+	0x02: (name=empty) Instruction Decode Queue (IDQ) empty cycles
+	0x04: (name=mite_uops) Uops delivered to Instruction Decode Queue (IDQ) from MITE path
+	0x04: (name=mite_cycles) Cycles when uops are being delivered to Instruction Decode Queue 
+              (IDQ) from MITE path
+	0x08: (name=dsb_uops) Uops delivered to Instruction Decode Queue (IDQ) from the Decode 
+              Stream Buffer (DSB) path
+	0x08: (name=dsb_cycles) Cycles when uops are being delivered to Instruction Decode Queue 
+              (IDQ) from Decode Stream Buffer (DSB) path
+	0x10: (name=ms_dsb_uops) Uops initiated by Decode Stream Buffer (DSB) that are being 
+              delivered to Instruction Decode Queue (IDQ) while Microcode Sequenser (MS) is busy
+	0x10: (name=ms_dsb_cycles) Cycles when uops initiated by Decode Stream Buffer (DSB) are 
+              being delivered to Instruction Decode Queue (IDQ) while Microcode Sequenser (MS) is 
+              busy
+	0x10: (name=ms_dsb_occur) Deliveries to Instruction Decode Queue (IDQ) initiated by 
+              Decode Stream Buffer (DSB) while Microcode Sequenser (MS) is busy
+	0x18: (name=all_dsb_cycles_any_uops) Cycles Decode Stream Buffer (DSB) is delivering any 
+              Uop
+	0x18: (name=all_dsb_cycles_4_uops) Cycles Decode Stream Buffer (DSB) is delivering 4 Uops
+	0x20: (name=ms_mite_uops) Uops initiated by MITE and delivered to Instruction Decode 
+              Queue (IDQ) while Microcode Sequenser (MS) is busy
+	0x24: (name=all_mite_cycles_any_uops) Cycles MITE is delivering any Uop
+	0x24: (name=all_mite_cycles_4_uops) Cycles MITE is delivering 4 Uops
+	0x30: (name=ms_uops) Uops delivered to Instruction Decode Queue (IDQ) while Microcode 
+              Sequenser (MS) is busy
+	0x30: (name=ms_cycles) Cycles when uops are being delivered to Instruction Decode Queue 
+              (IDQ) while Microcode Sequenser (MS) is busy
+	0x3c: (name=mite_all_uops) Uops delivered to Instruction Decode Queue (IDQ) from MITE 
+              path
+icache: (counter: all)
+	Instruction cache (min count: 200000)
+	Unit masks (default 0x2)
+	----------
+	0x02: (name=misses) Instruction cache, streaming buffer and victim cache misses
+itlb_misses: (counter: all)
+	Misses at all ITLB levels that cause page walks (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=miss_causes_a_walk) Misses at all ITLB levels that cause page walks
+	0x02: (name=walk_completed) Misses in all ITLB levels that cause completed page walks
+	0x04: (name=walk_duration) Cycles when PMH is busy with page walks
+	0x10: (name=stlb_hit) Operations that miss the first ITLB level but hit the second and do 
+              not cause any page walks
+ild_stall: (counter: all)
+	Stalls caused by changing prefix length of the instruction. (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=lcp) Stalls caused by changing prefix length of the instruction.
+	0x04: (name=iq_full) Stall cycles because IQ is full
+br_inst_exec: (counter: all)
+	Branch instructions (min count: 200000)
+	Unit masks (default 0x41)
+	----------
+	0x41: (name=nontaken_conditional) Not taken macro-conditional branches
+	0x81: (name=taken_conditional) Taken speculative and retired macro-conditional branches
+	0x82: (name=taken_direct_jump) Taken speculative and retired macro-conditional branch 
+              instructions excluding calls and indirects
+	0x84: (name=taken_indirect_jump_non_call_ret) Taken speculative and retired indirect 
+              branches excluding calls and returns
+	0x88: (name=taken_indirect_near_return) Taken speculative and retired indirect branches 
+              with return mnemonic
+	0x90: (name=taken_direct_near_call) Taken speculative and retired direct near calls
+	0xa0: (name=taken_indirect_near_call) Taken speculative and retired indirect calls
+	0xc1: (name=all_conditional) Speculative and retired macro-conditional branches
+	0xc2: (name=all_direct_jmp) Speculative and retired macro-unconditional branches 
+              excluding calls and indirects
+	0xc4: (name=all_indirect_jump_non_call_ret) Speculative and retired indirect branches 
+              excluding calls and returns
+	0xc8: (name=all_indirect_near_return) Speculative and retired indirect return branches.
+	0xd0: (name=all_direct_near_call) Speculative and retired direct near calls
+	0xff: (name=all_branches) Speculative and retired branches
+br_misp_exec: (counter: all)
+	Mispredicted branch instructions (min count: 200000)
+	Unit masks (default 0x41)
+	----------
+	0x41: (name=nontaken_conditional) Not taken speculative and retired mispredicted macro 
+              conditional branches
+	0x81: (name=taken_conditional) Taken speculative and retired mispredicted macro 
+              conditional branches
+	0x84: (name=taken_indirect_jump_non_call_ret) Taken speculative and retired mispredicted 
+              indirect branches excluding calls and returns
+	0x88: (name=taken_return_near) Taken speculative and retired mispredicted indirect 
+              branches with return mnemonic
+	0xa0: (name=taken_indirect_near_call) Taken speculative and retired mispredicted indirect 
+              calls
+	0xc1: (name=all_conditional) Speculative and retired mispredicted macro conditional 
+              branches
+	0xc4: (name=all_indirect_jump_non_call_ret) Mispredicted indirect branches excluding 
+              calls and returns
+	0xff: (name=all_branches) Speculative and retired mispredicted macro conditional branches
+idq_uops_not_delivered: (counter: all)
+	Uops not delivered by the Frontend to the Backend of the machine, while there is no Backend 
+        stall (min count: 2000000)
+	Unit masks (default core)
+	----------
+	0x01: (name=core) Uops not delivered by the Frontend to the Backend of the machine, while 
+              there is no Backend stall
+	0x01: (name=cycles_le_3_uop_deliv.core) Cycles with 3 or less uops delivered by the 
+              Frontend to the Backend of the machine, while there is no Backend stall
+	0x01: (name=cycles_fe_was_ok) Cycles with 4 uops delivered by the Frontend to the Backend 
+              of the machine, or the Backend was stalling
+	0x01: (name=cycles_le_2_uop_deliv.core) Cycles with 2 or less uops delivered by the 
+              Frontend to the Backend of the machine, while there is no Backend stall
+	0x01: (name=cycles_le_1_uop_deliv.core) Cycles with 1 or less uops delivered by the 
+              Frontend to the Backend of the machine, while there is no Backend stall
+	0x01: (name=cycles_0_uops_deliv.core) Cycles with no uops delivered by the Frontend to 
+              the Backend of the machine, while there is no Backend stall
+uops_dispatched_port: (counter: all)
+	Cycles per thread when uops are dispatched to port (min count: 2000000)
+	Unit masks (default port_0)
+	----------
+	0x01: (name=port_0) Cycles per thread when uops are dispatched to port 0
+	0x01: (name=port_0_core) Cycles per core when uops are dispatched to port 0
+	0x02: (name=port_1) Cycles per thread when uops are dispatched to port 1
+	0x02: (name=port_1_core) Cycles per core when uops are dispatched to port 1
+	0x0c: (name=port_2) Cycles per thread when load or STA uops are dispatched to port 2
+	0x0c: (name=port_2_core) Cycles per core when load or STA uops are dispatched to port 2
+	0x30: (name=port_3) Cycles per thread when load or STA uops are dispatched to port 3
+	0x30: (name=port_3_core) Cycles per core when load or STA uops are dispatched to port 3
+	0x40: (name=port_4) Cycles per thread when uops are dispatched to port 4
+	0x40: (name=port_4_core) Cycles per core when uops are dispatched to port 4
+	0x80: (name=port_5) Cycles per thread when uops are dispatched to port 5
+	0x80: (name=port_5_core) Cycles per core when uops are dispatched to port 5
+resource_stalls: (counter: all)
+	Resource-related stall cycles (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=any) Resource-related stall cycles
+	0x04: (name=rs) Cycles stalled due to no eligible RS entry available.
+	0x08: (name=sb) Cycles stalled due to no store buffers available. (not including draining 
+              form sync).
+	0x10: (name=rob) Cycles stalled due to re-order buffer full.
+cycle_activity: (counter: 2)
+	Cycle activity (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=cycles_l2_pending) Cycles with pending L2 cache miss loads.
+	0x02: (name=cycles_ldm_pending) Cycles with pending memory loads.
+	0x04: (name=cycles_no_execute) Total execution stalls
+	0x05: (name=stalls_l2_pending) Execution stalls due to L2 cache misses.
+	0x06: (name=stalls_ldm_pending) Execution stalls due to memory subsystem.
+	0x08: (name=cycles_l1d_pending) Cycles with pending L1 cache miss loads.
+	0x0c: (name=stalls_l1d_pending) Execution stalls due to L1 data cache misses
+dsb2mite_switches: (counter: all)
+	Decode Stream Buffer (DSB)-to-MITE switches (min count: 2000000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=count) Decode Stream Buffer (DSB)-to-MITE switches
+dsb_fill: (counter: all)
+	Decode Stream Buffer (DSB) fill (min count: 2000000)
+	Unit masks (default 0x8)
+	----------
+	0x08: (name=exceed_dsb_lines) Cycles when Decode Stream Buffer (DSB) fill encounter more 
+              than 3 Decode Stream Buffer (DSB) lines
+itlb: (counter: all)
+	Instruction TLB (ITLB) (min count: 10000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=itlb_flush) Flushing of the Instruction TLB (ITLB) pages, includes 4k/2M/4M 
+              pages.
+offcore_requests: (counter: all)
+	Uncore requests (min count: 100000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=demand_data_rd) Demand Data Read requests sent to uncore
+	0x02: (name=demand_code_rd) Cacheable and noncachaeble code read requests
+	0x04: (name=demand_rfo) Demand RFO requests including regular RFOs, locks, ItoM
+	0x08: (name=all_data_rd) Demand and prefetch data reads
+uops_executed: (counter: all)
+	Uops executed (min count: 2000000)
+	Unit masks (default thread)
+	----------
+	0x01: (name=thread) Counts the number of uops to be executed per-thread each cycle.
+	0x01: (name=cycles_ge_1_uop_exec) Cycles where at least 1 uop was executed per-thread
+	0x01: (name=stall_cycles) Counts number of cycles no uops were dispatched to be executed 
+              on this thread.
+	0x01: (name=cycles_ge_2_uops_exec) Cycles where at least 2 uops were executed per-thread
+	0x01: (name=cycles_ge_3_uops_exec) Cycles where at least 3 uops were executed per-thread
+	0x01: (name=cycles_ge_4_uops_exec) Cycles where at least 4 uops were executed per-thread
+	0x02: (name=core) Number of uops executed on the core.
+tlb_flush: (counter: all)
+	DTLB flushes (min count: 10000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=dtlb_thread) DTLB flush attempts of the thread-specific entries
+	0x20: (name=stlb_any) STLB flush attempts
+other_assists: (counter: all)
+	Microcode assists. (min count: 100000)
+	Unit masks (default 0x8)
+	----------
+	0x08: (name=avx_store) Number of AVX memory assist for stores. AVX microcode assist is 
+              being invoked whenever the hardware is unable to properly handle AVX-256b operations.
+	0x10: (name=avx_to_sse) Number of transitions from AVX-256 to legacy SSE when penalty 
+              applicable.
+	0x20: (name=sse_to_avx) Number of transitions from SSE to AVX-256 when penalty 
+              applicable.
+uops_retired: (counter: all)
+	Retired uops. (min count: 2000000)
+	Unit masks (default all)
+	----------
+	0x01: (name=all) Actually retired uops.
+	0x01: (name=stall_cycles) Cycles without actually retired uops. 
+	0x01: (name=core_stall_cycles) Cycles without actually retired uops. 
+	0x01: (name=total_cycles) Cycles with less than 10 actually retired uops. 
+	0x02: (name=retire_slots) Retirement slots used.
+machine_clears: (counter: all)
+	Machine clears (min count: 100000)
+	Unit masks (default 0x2)
+	----------
+	0x02: (name=memory_ordering) Counts the number of machine clears due to memory order 
+              conflicts.
+	0x04: (name=smc) Self-modifying code (SMC) detected.
+	0x20: (name=maskmov) This event counts the number of executed Intel AVX masked load 
+              operations that refer to an illegal address range with the mask bits set to 0.
+br_inst_retired: (counter: all)
+	Conditional branch instructions retired. (min count: 400000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=conditional) Conditional branch instructions retired.
+	0x02: (name=near_call_r3) Direct and indirect macro near call instructions retired 
+              (captured in ring 3).
+	0x02: (name=near_call) Direct and indirect near call instructions retired.
+	0x08: (name=near_return) Return instructions retired.
+	0x10: (name=not_taken) Not taken branch instructions retired.
+	0x20: (name=near_taken) Taken branch instructions retired.
+	0x40: (name=far_branch) Far branch instructions retired.
+br_misp_retired: (counter: all)
+	Mispredicted conditional branch instructions retired. (min count: 400000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=conditional) Mispredicted conditional branch instructions retired.
+	0x20: (name=near_taken) number of near branch instructions retired that were mispredicted 
+              and taken.
+fp_assist: (counter: all)
+	FPU assists (min count: 100000)
+	Unit masks (default 0x1e)
+	----------
+	0x02: (name=x87_output) Number of X87 assists due to output value.
+	0x04: (name=x87_input) Number of X87 assists due to input value.
+	0x08: (name=simd_output) Number of SIMD FP assists due to Output values
+	0x10: (name=simd_input) Number of SIMD FP assists due to input values
+	0x1e: (name=any) Cycles with any input/output SSE or FP assist
+rob_misc_events: (counter: all)
+	ROB (Register Order Buffer) events (min count: 2000000)
+	Unit masks (default 0x20)
+	----------
+	0x20: (name=lbr_inserts) Count cases of saving new LBR
+mem_uops_retired: (counter: all)
+	Memory Uops (min count: 2000000)
+	Unit masks (default 0x81)
+	----------
+	0x11: (name=stlb_miss_loads) Load uops with true STLB miss retired to architected path.
+	0x12: (name=stlb_miss_stores) Store uops with true STLB miss retired to architected path.
+	0x21: (name=lock_loads) Load uops with locked access retired to architected path.
+	0x41: (name=split_loads) Line-splitted load uops retired to architected path.
+	0x42: (name=split_stores) Line-splitted store uops retired to architected path.
+	0x81: (name=all_loads) Load uops retired to architected path with filter on bits 0 and 1 
+              applied.
+	0x82: (name=all_stores) Store uops retired to architected path with filter on bits 0 and 
+              1 applied.
+mem_load_uops_retired: (counter: all)
+	Memory load uops (min count: 50000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=l1_hit) Retired load uops with L1 cache hits as data sources.
+	0x02: (name=l2_hit) Retired load uops with L2 cache hits as data sources.
+	0x04: (name=llc_hit) Retired load uops which data sources were data hits in LLC without 
+              snoops required.
+	0x40: (name=hit_lfb) Retired load uops which data sources were load uops missed L1 but 
+              hit forward buffer due to preceding miss to the same cache line with data not ready.
+mem_load_uops_llc_hit_retired: (counter: all)
+	Memory load uops with LLC (Last Level Cache) hit (min count: 20000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=xsnp_miss) Retired load uops which data sources were LLC hit and cross-core 
+              snoop missed in on-pkg core cache.
+	0x02: (name=xsnp_hit) Retired load uops which data sources were LLC and cross-core snoop 
+              hits in on-pkg core cache.
+	0x04: (name=xsnp_hitm) Retired load uops which data sources were HitM responses from 
+              shared LLC.
+	0x08: (name=xsnp_none) Retired load uops which data sources were hits in LLC without 
+              snoops required.
+mem_load_uops_llc_miss_retired: (counter: all)
+	Memory load uops with LLC (Last Level Cache) miss (min count: 10000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=local_dram) Data from local DRAM either Snoop not needed or Snoop Miss (RspI)
+baclears: (counter: all)
+	Frontend resteering (min count: 100000)
+	Unit masks (default 0x1f)
+	----------
+	0x1f: (name=any) Counts the total number when the front end is resteered, mainly when the 
+              BPU cannot provide a correct prediction and this is corrected by other branch 
+              handling mechanisms at the front end.
+l2_trans: (counter: all)
+	L2 cache transactions (min count: 200000)
+	Unit masks (default 0x80)
+	----------
+	0x01: (name=demand_data_rd) Demand Data Read requests that access L2 cache
+	0x02: (name=rfo) RFO requests that access L2 cache
+	0x04: (name=code_rd) L2 cache accesses when fetching instructions
+	0x08: (name=all_pf) L2 or LLC HW prefetches that access L2 cache
+	0x10: (name=l1d_wb) L1D writebacks that access L2 cache
+	0x20: (name=l2_fill) L2 fill requests that access L2 cache
+	0x40: (name=l2_wb) L2 writebacks that access L2 cache
+	0x80: (name=all_requests) Transactions accessing L2 pipe
+l2_lines_in: (counter: all)
+	L2 cache lines in (min count: 100000)
+	Unit masks (default 0x7)
+	----------
+	0x01: (name=i) L2 cache lines in I state filling L2
+	0x02: (name=s) L2 cache lines in S state filling L2
+	0x04: (name=e) L2 cache lines in E state filling L2
+	0x07: (name=all) L2 cache lines filling L2
+l2_lines_out: (counter: all)
+	L2 cache lines out (min count: 100000)
+	Unit masks (default 0x1)
+	----------
+	0x01: (name=demand_clean) Clean L2 cache lines evicted by demand
+	0x02: (name=demand_dirty) Dirty L2 cache lines evicted by demand
+	0x04: (name=pf_clean) Clean L2 cache lines evicted by L2 prefetch
+	0x08: (name=pf_dirty) Dirty L2 cache lines evicted by L2 prefetch
+	0x0a: (name=dirty_all) Dirty L2 cache lines filling the L2

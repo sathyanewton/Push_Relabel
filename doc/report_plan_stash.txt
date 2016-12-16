@@ -1,0 +1,73 @@
+Project Report content and Documentation. 
+
+
+Things to do 
+
+1. Collect more data. 
+
+2. Better results 
+
+3. Write report 
+
+4. Study the algorithm all over again
+
+5. Watch video about Push Relabel 
+
+6. Study algorithm analysis and time complexity a.k.a complexity bound 
+
+7. Study the paper inside out 
+
+8. Micro - architecture stuff 
+			(i) memory / cache hirachy 
+			(ii) QPI 
+			(iii) smart cache 
+			(iv) pipeline 
+			(iv) overview about various hardware bottlenecks
+			(v) Model spesific stuff in the nveus server. 
+9. Operating system stuff used 
+			(i) fork system call
+			(ii) softirq and tasklet 
+			(iii) fork() syscall
+			(iv) Interrupts and context switching 
+10. Library infrastructure 
+			(i) STL library ==> PrivQ.front issue 
+			(ii) pthread library ==> Fork and Copy on Write Fork calls
+			(iii) Memory allocator infrasutructure ==> amount of cycles spent in memory alllocation and     		  deallocation.
+			(iv) Function invocation cost 
+				 		  Function call convention (Balaji stuff about function call, function prelouge and function epilouge in linux/ubuntu and windows)
+11. Analysis of all other contemprory algorithms w.r.t push relabel
+
+
+Sections 
+1.INTRODUCTION 
+2.The Maximum Flow problem and graph theory basics  					
+3.The Target Hardware Platform 
+4.Algorithm 
+Basic operations ==> push relabel
+		(i) sequential 
+		(ii) parallel 
+5.Complexity Analysis ==> optional.
+6.Algorithmic issues 
+		(i) Number of operations in both sequential and parallel version.
+		(ii) Regerssive-Competitive relabeling 
+		(iii) vertices that don't reach the sink
+		(iv) Work sharing between threads
+7. Implementation details 
+		(i) Library and compier directives used (g++(know version),pthreads,STL,atomic library)
+		(ii) benchmark sequential implementation details	 	
+		(iii) Flowchart
+		(iv) Datastructure used locality and cache friendliness 
+		(v) Graph Generator details 
+		(vi) parallel implementation 
+		(vii) about global exit condition.
+8. Implementation issues
+		(i) imbalanced work sharing between threads 
+		(ii) privQ.front()
+		(iii) AGR implementation details 
+9. Results
+		(i) Tables 
+		(ii) Graphs 
+		(iii) Hotspot analysis 
+10. Interpratations,Discussion and Conclusion
+
+11. Abstract
